@@ -21,8 +21,20 @@ def out4(name=""):
     """Step4/outputs 산출물 (저장소에서는 outputs/)"""
     return _first(os.path.join(ROOT, "Step4", "outputs", name), os.path.join(ROOT, "outputs", name))
 
+def _in_existing_dir(*cands):
+    """존재하는 파일이 있으면 그 경로, 없으면 존재하는 디렉토리 쪽 경로를 준다.
+    새 산출물이 저장소 레이아웃에서 엉뚱한 루트에 떨어지는 것을 막는다."""
+    for c in cands:
+        if os.path.exists(c):
+            return c
+    for c in cands:
+        if os.path.isdir(os.path.dirname(c)):
+            return c
+    return cands[0]
+
 def v10(name=""):
-    return _first(os.path.join(ROOT, "Step5v10", name), os.path.join(ROOT, "outputs", "Step5v10", name))
+    return _in_existing_dir(os.path.join(ROOT, "Step5v10", name),
+                            os.path.join(ROOT, "outputs", "Step5v10", name))
 
 def data(name=""):
     return _first(os.path.join(ROOT, "data", name), os.path.join(ROOT, "labels", name))

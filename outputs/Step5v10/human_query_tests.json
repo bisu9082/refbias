@@ -174,5 +174,13 @@
    "no_overlap_with_industrial": true,
    "no_overlap_with_conventional": true
   }
+ },
+ "domestic_security_query_clustered": {
+  "point": 0.02480309423347398,
+  "n_domestic_events": 11,
+  "ci95_query_cluster": [
+   0.0,
+   0.08098836392195767
+  ]
  }
 }

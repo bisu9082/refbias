@@ -154,4 +154,30 @@ for cond, tag in [(False, "pE"), (True, "pE_cond")]:
     entry["no_overlap_with_conventional"] = bool(ov[1])
     res["block_level_query_clustered"][tag] = entry
     print(f"  [{tag}] 비중첩 — 산업 {ov[0]}, 재래식 {ov[1]}")
+# ── 국내 CBRN 사건 비율의 쿼리 군집 구간 (6차 패널 리뷰어 B 대응)
+# 기존 계산을 끝낸 뒤에 붙이므로 위쪽 난수열과 결과는 바뀌지 않는다.
+import importlib.util as _ilu
+_sp = _ilu.spec_from_file_location('_dom', os.path.join(BASE, 'code', '_domestic_rule.py'))
+_dm = _ilu.module_from_spec(_sp); _sp.loader.exec_module(_dm)
+_ev = pd.read_csv(P.v10("human_event_coding_security.csv"))
+_KR = ('Daegu', 'Jeju', 'Incheon', 'Haman', 'Busan', 'Seoul', 'Gyeonggi', 'Ulsan')
+_dom_sids = set(_ev[_ev['place'].str.startswith(_KR)]['sid'])
+_sec = cons[cons.block == "안보"].copy()
+_sec["y"] = np.where(_sec.sid.isin(_dom_sids), "EVENT", "OTHER")
+_qs = sorted(_sec["query"].unique())
+_pt = block_cell_ps(_sec, "안보", False)
+_pt = _pt[0] / _pt[1]
+_dr = []
+for _ in range(4000):
+    _pick = RNG.choice(_qs, len(_qs), replace=True)
+    _rs = pd.concat([_sec[_sec["query"] == q] for q in _pick])
+    _n, _d = block_cell_ps(_rs, "안보", False)
+    if _d: _dr.append(_n / _d)
+_dr = np.array(_dr)
+res["domestic_security_query_clustered"] = {
+    "point": float(_pt), "n_domestic_events": int(len(_dom_sids)),
+    "ci95_query_cluster": [float(np.percentile(_dr, 2.5)), float(np.percentile(_dr, 97.5))]}
+print(f"  [domestic] {100*_pt:5.2f}%  query-cluster CI "
+      f"{100*res['domestic_security_query_clustered']['ci95_query_cluster'][0]:.1f}-"
+      f"{100*res['domestic_security_query_clustered']['ci95_query_cluster'][1]:.1f}")
 json.dump(res, open(P.v10("human_query_tests.json"), "w"), ensure_ascii=False, indent=1)

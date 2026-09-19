@@ -92,8 +92,8 @@ find(r'gives \$A = ([0-9.]+)\$','A security in tex','%.1f'%F['blocks']['security
 find(r'the event share is ([0-9.]+)\\% in the industrial block, ([0-9.]+)\\% in the conventional','pE_cond industrial in tex','%.1f'%(100*CD['model']['industrial']['pE_cond']))
 find(r'and ([0-9.]+)\\% in the security block, and the query-level test','pE_cond security model in tex','%.1f'%(100*CD['model']['security']['pE_cond']))
 find(r'gives \$H\(2\) = ([0-9.]+)\$','cond KW H in tex','%.2f'%CD['model_query_level']['kruskal_H'])
-find(r'human event shares of ([0-9.]+)\\% \(42\.0--63\.0\) industrial','pE_cond human industrial in tex','%.1f'%(100*CD['human']['industrial']['pE_cond']))
-find(r'and ([0-9.]+)\\% \(7\.3--21\.8\) security','pE_cond human security in tex','%.1f'%(100*CD['human']['security']['pE_cond']))
+find(r'gives human event shares of ([0-9.]+)\\% \(36\.4--72\.0\) industrial','pE_cond human industrial in tex','%.1f'%(100*CD['human']['industrial']['pE_cond']))
+find(r'and ([0-9.]+)\\% \(1\.9--31\.2\) security','pE_cond human security in tex','%.1f'%(100*CD['human']['security']['pE_cond']))
 find(r'The full table is (\d+) true positives','security TP in tex',str(V9['security_2x2']['TP']))
 find(r'(\d+) false positives, ','security FP in tex',str(V9['security_2x2']['FP']))
 find(r"coder A's precision on the EVENT class in this block is ([0-9.]+)",'security precision in tex','%.2f'%V9['security_2x2']['precision'])
@@ -132,10 +132,41 @@ chk('L3','v10 coderA m matches v8',round(HM['coderA_m_security'],6),round(F['m_b
 HQ=json.load(open(P.v10('human_query_tests.json')))
 find(r'event share \(\$H\(2\) = ([0-9.]+)\$, \$p = 0\.041','O1 human KW H in tex','%.2f'%HQ['human_pE']['kruskal_H'])
 find(r'the rank test does not reject at all \(\$H\(2\) = ([0-9.]+)\$','O1 human cond KW H in tex','%.2f'%HQ['human_pE_conditional']['kruskal_H'])
-find(r'gives 5\.0\\% \(0\.6--([0-9.]+)\)','O1 sec clustered hi in tex','%.1f'%(100*HQ['block_level_query_clustered']['pE']['security']['ci95_query_cluster'][1]))
-find(r'conditioning on topical relevance gives 13\.9\\% \(1\.9--([0-9.]+)\)','O1 sec cond clustered hi in tex','%.1f'%(100*HQ['block_level_query_clustered']['pE_cond']['security']['ci95_query_cluster'][1]))
+find(r'5\.0\\% \(0\.6--([0-9.]+)\) in the security block','O1 sec clustered hi in tex','%.1f'%(100*HQ['block_level_query_clustered']['pE']['security']['ci95_query_cluster'][1]))
+find(r'and 13\.9\\% \(1\.9--([0-9.]+)\) security','O1 sec cond clustered hi in tex','%.1f'%(100*HQ['block_level_query_clustered']['pE_cond']['security']['ci95_query_cluster'][1]))
 chk('L3','O1 안보 조건부 구간이 두 대조군과 비중첩',True,
     HQ['block_level_query_clustered']['pE_cond']['no_overlap_with_industrial'] and HQ['block_level_query_clustered']['pE_cond']['no_overlap_with_conventional'])
+# ── 5차 패널 STEP 7 신규 (S13 0건 셀 / S14 재현율)
+# ── 6차 패널 교정 검증
+DC=json.load(open(P.v10('human_query_tests.json')))['domestic_security_query_clustered']
+find(r'2\.5\\% \(0\.0--([0-9.]+), resampling whole queries\)','국내 쿼리군집 상한 in tex','%.1f'%(100*DC['ci95_query_cluster'][1]))
+chk('L3','국내 점추정 = 2.48%',True,abs(DC['point']-0.024803094233473984)<1e-9)
+_s14=json.load(open(P.v10('registry_recall.json')))['recall_corrected_counts']
+chk('L3','HF 12건 < 황산 55건 (초록 4배 서술)',True,
+    abs(_s14['황산']/_s14['불산']-4.58)<0.1)
+chk('L3','HF가 최소가 아님 (염소가 더 적음)',True,_s14['염소']<_s14['불산'])
+find(r'enter the weighted estimate at ([0-9.]+) each','FN 가중치 in tex','%.2f'%(805/140))
+find(r'([0-9]+) of the 25 Novichok EVENT articles in the gold set report it','Navalny 건수 in tex','14')
+ZC=json.load(open(P.v10('zero_cell_ci.json')))
+chk('L1','S13 보수 비EVENT 셀 인간사건 0건',0,ZC['cells']['비CBRN|non-EVENT']['k_human_event'])
+find(r'which puts its share at no more than ([0-9.]+)\\%','S13 0건셀 Jeffreys 상한 in tex',
+     '%.1f'%(100*ZC['cells']['비CBRN|non-EVENT']['jeffreys95'][1]))
+find(r'lifts the conventional upper limit from 40\.9\\% to ([0-9.]+)\\%','S13 보수 상한 in tex',
+     '%.1f'%(100*ZC['blocks']['conventional']['pE_jeffreys95'][1]))
+find(r'should be read as a lower bound of ([0-9.]+) rather than as certainty','S13 TPR 하한 in tex',
+     '%.2f'%ZC['tpr']['conventional']['lower_from_jeffreys_fn_upper'])
+chk('L3','S13 Jeffreys 점추정이 사후층화와 일치',True,
+    abs(ZC['blocks']['security']['pE_point']-0.04960618846694796)<1e-9)
+RC=json.load(open(P.v10('registry_recall.json')))
+chk('L1','S14 판정 채택 1건',1,
+    sum(1 for v in RC['candidates_from_description'].values() for r in v if r['accepted']))
+chk('L1','S14 미판정 후보 0건',0,
+    sum(1 for v in RC['candidates_from_description'].values() for r in v if r['accepted'] is None))
+find(r'gives a recall of ([0-9.]+) for hydrogen fluoride','S14 HF 재현율 in tex',
+     '%.2f'%RC['recall_of_strict_rule']['불산'])
+chk('L3','S14 나머지 5종 재현율 1.00',True,
+    all(abs(v-1.0)<1e-9 for k,v in RC['recall_of_strict_rule'].items() if k!='불산'))
+chk('L3','S14 보정 후에도 기울기 1 기각',True,RC['regression']['recall_corrected']['p_slope_eq_1']<0.05)
 RR=json.load(open(P.v10('registry_recode.json')))
 find(r'The six matched sets contain (\d+) distinct incidents','v12 registry unique in tex',str(RR['original']['unique_incidents']))
 find(r'and (\d+) substance assignments','v12 registry sum in tex',str(RR['original']['sum_over_substances']))

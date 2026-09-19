@@ -1,0 +1,107 @@
+{
+ "cells": {
+  "산업|EVENT": {
+   "k_human_event": 23,
+   "n_consensus": 32,
+   "N_gold": 418,
+   "p_hat": 0.71875,
+   "jeffreys95": [
+    0.5491331997043036,
+    0.8507844640190105
+   ]
+  },
+  "산업|non-EVENT": {
+   "k_human_event": 2,
+   "n_consensus": 42,
+   "N_gold": 549,
+   "p_hat": 0.047619047619047616,
+   "jeffreys95": [
+    0.010026141461289509,
+    0.14410036217769434
+   ]
+  },
+  "안보|EVENT": {
+   "k_human_event": 18,
+   "n_consensus": 79,
+   "N_gold": 95,
+   "p_hat": 0.22784810126582278,
+   "jeffreys95": [
+    0.14619449461958475,
+    0.32902097675376807
+   ]
+  },
+  "안보|non-EVENT": {
+   "k_human_event": 4,
+   "n_consensus": 140,
+   "N_gold": 805,
+   "p_hat": 0.02857142857142857,
+   "jeffreys95": [
+    0.00971929715612954,
+    0.06649253400411156
+   ]
+  },
+  "비CBRN|EVENT": {
+   "k_human_event": 26,
+   "n_consensus": 28,
+   "N_gold": 409,
+   "p_hat": 0.9285714285714286,
+   "jeffreys95": [
+    0.7900528430200141,
+    0.9848591739945654
+   ]
+  },
+  "비CBRN|non-EVENT": {
+   "k_human_event": 0,
+   "n_consensus": 39,
+   "N_gold": 591,
+   "p_hat": 0.0,
+   "jeffreys95": [
+    0.0,
+    0.06199038426935263
+   ]
+  }
+ },
+ "blocks": {
+  "industrial": {
+   "pE_point": 0.3377252917713104,
+   "pE_jeffreys95": [
+    0.24306311182900397,
+    0.44957497910599853
+   ]
+  },
+  "security": {
+   "pE_point": 0.04960618846694796,
+   "pE_jeffreys95": [
+    0.024125012443938703,
+    0.09420386962768641
+   ]
+  },
+  "conventional": {
+   "pE_point": 0.3797857142857143,
+   "pE_jeffreys95": [
+    0.32313161279518576,
+    0.4394437192669646
+   ]
+  }
+ },
+ "tpr": {
+  "industrial": {
+   "point": 0.9199496951636273,
+   "lower_from_jeffreys_fn_upper": 0.7915652986777844,
+   "nonEVENT_cell_human_events": 2,
+   "nonEVENT_cell_n": 42
+  },
+  "security": {
+   "point": 0.48483130138928265,
+   "lower_from_jeffreys_fn_upper": 0.2879470080516643,
+   "nonEVENT_cell_human_events": 4,
+   "nonEVENT_cell_n": 140
+  },
+  "conventional": {
+   "point": 1.0,
+   "lower_from_jeffreys_fn_upper": 0.9120211844195815,
+   "nonEVENT_cell_human_events": 0,
+   "nonEVENT_cell_n": 39
+  }
+ }
+}

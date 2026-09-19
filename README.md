@@ -34,12 +34,15 @@ python code/analyze_14_human_ps.py     # post-stratified estimates, consensus-ru
 python code/finalize_v8_numbers.py     # the numbers reported in the manuscript
 python code/analyze_15_conditional_pE.py  # event share conditional on topical relevance
 python code/analyze_16_v9_additions.py    # matched agreement table, 2x2, conditional anchor rates, power, attenuation
+python code/analyze_19_human_query_tests.py # block tests on human labels, query-clustered intervals, domestic share
+python code/analyze_22_registry_recall.py  # recall audit of the registry substance matching (S14)
+python code/analyze_23_zero_cell_ci.py     # Jeffreys treatment of the zero-count cell (S13)
 python code/integrity_audit.py            # three-way audit: raw data -> outputs -> manuscript
 python code/verify_v8b.py                 # checks every human-validation number in main.tex against outputs/
 python code/regression_check.py           # guards the deposited JSONs against silent drift
 ```
 
-`integrity_audit.py` runs three checks in one pass: it recomputes 21 quantities from the label files and compares them with the deposited JSONs, matches 38 values in `paper/main.tex` against those JSONs by context-anchored regex, and checks 5 quantities that appear in more than one file for mutual consistency. `verify_v8b.py` adds 70 further manuscript checks. `regression_check.py` pins the headline quantities to fixed baselines; it exists because a refactor once changed a published number without anyone noticing.
+`integrity_audit.py` runs three checks in one pass: it recomputes 24 quantities from the label files and compares them with the deposited JSONs, matches 60 values in `paper/main.tex` against those JSONs by context-anchored regex, and checks 16 quantities that appear in more than one file for mutual consistency. `verify_v8b.py` adds 70 further manuscript checks. `regression_check.py` pins the headline quantities to fixed baselines; it exists because a refactor once changed a published number without anyone noticing.
 
 The remaining scripts (`analyze_01`–`analyze_11`, `infer_corpus.py`, `make_figset*.py`) need the article text and will fail without `data/corpus_bigkinds.csv.gz`, which is not distributable.
 
@@ -47,11 +50,11 @@ The remaining scripts (`analyze_01`–`analyze_11`, `infer_corpus.py`, `make_fig
 
 | Block | n drawn / consensus | Coder A | Human (post-stratified) | 95% CI | Range over disagreement rules | On-topic only | Amplification |
 |---|---|---|---|---|---|---|---|
-| Industrial | 78 / 74 | 43.2% | 33.8% | 25.7–41.9 | 33.5–38.5 | 52.1% | 5.2 [4.2, 6.8] |
-| Security (CBRN) | 245 / 219 | 10.6% | **5.0%** | 2.5–7.9 | 4.4–12.1 | **13.9%** | **22.5 [14.2, 44.0]** |
-| Conventional | 77 / 67 | 40.9% | 38.0% | 33.6–40.9 | 35.4–48.2 | 59.6% | 3.1 [2.9, 3.5] |
+| Industrial | 78 / 74 | 43.2% | 33.8% | 22.9–39.9 | 33.5–38.5 | 52.1% | 5.2 |
+| Security (CBRN) | 245 / 219 | 10.6% | **5.0%** | 0.6–10.9 | 4.4–12.1 | **13.9%** | **22.5** |
+| Conventional | 77 / 67 | 40.9% | 38.0% | 30.2–40.9 | 35.4–48.2 | 59.6% | 3.1 |
 
-The three query sets retrieve with different precision (25.6% of security articles are off-topic against 9.2% industrial), so the last-but-one column gives the event share among on-topic articles only. The contrast holds: the security interval (7.3–21.8) reaches neither control's.
+The three query sets retrieve with different precision (25.6% of security articles are off-topic against 9.2% industrial), so the last-but-one column gives the event share among on-topic articles only. The contrast holds: the security interval (1.9–31.2) reaches neither control's. All intervals in this table resample whole queries within the block, which is the unit used for the between-block comparisons; amplification carries no interval, because inverting a share interval whose lower end is 0.6% does not produce a usable one.
 
 Inter-human agreement is $\kappa = 0.848$ over the five components and 0.905 on the event boundary. Agreement between the human standard and the model coder is 0.938 for conventional terrorism, 0.689 for industrial accidents and 0.236 for CBRN security threats: the model counted topically adjacent occurrences that the codebook excludes, and the paper reports which of its own results that failure does and does not license.
 

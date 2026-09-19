@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """refbias Fig5 — 인간 검증 (a) 블록별 p_E 세 경로 비교  (b) 안보 블록 코더A EVENT 판정의 인간 라벨 분해"""
-import os, json
+import os, json, sys
 import numpy as np, matplotlib as mpl, matplotlib.pyplot as plt
 mpl.use('Agg')
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import _paths as P
 BASE=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-fin=json.load(open(BASE+'/Step5r/v8_final_numbers.json')); rg=fin
+fin=json.load(open(P.out('v8_final_numbers.json'))); rg=fin
+# 블록 share의 95% 구간은 쿼리 군집 부트스트랩(본문 3.3절의 분석 단위)을 쓴다.
+# 셀 내부 재표집 구간(v8_final_numbers.json의 ci95)은 군집을 무시하므로 사용하지 않는다.
+QC=json.load(open(P.v10('human_query_tests.json')))['block_level_query_clustered']['pE']
 C={'A':'#3F5FAE','H':'#B5352A','R':'#1A9484','N':'#8A8A8A','O':'#D97B1E'}
 AX,TK,LG=19,16,16
 mpl.rcParams.update({'font.family':'DejaVu Sans','axes.linewidth':1.0,'pdf.fonttype':42,'ps.fonttype':42})
@@ -16,7 +21,8 @@ fig,axes=plt.subplots(1,2,figsize=(13.2,5.6),gridspec_kw={'width_ratios':[1.15,1
 ax=axes[0]; x=np.arange(3); w=0.26
 def get(b):
     v=fin['blocks'][b]; rng=[fin['consensus_sensitivity'][r][b] for r in fin['consensus_sensitivity']]
-    return (100*v['pE_coderA'],(100*v['pE_human'],[100*v['ci95'][0],100*v['ci95'][1]]),
+    ci=QC[b]['ci95_query_cluster']
+    return (100*v['pE_coderA'],(100*v['pE_human'],[100*ci[0],100*ci[1]]),
             [100*min(rng),100*max(rng)])
 for i,b in enumerate(BLK):
     a,(hp,hci),rr=get(b)
@@ -36,7 +42,7 @@ ax.text(-0.13,1.01,'a',transform=ax.transAxes,fontsize=AX+3,fontweight='bold',va
 
 # ---- (b) security false-positive decomposition ----
 ax=axes[1]
-fp=json.load(open(BASE+'/Step5r/rg_corrected.json'))['security_false_positive_structure']; q=fp['by_query']
+fp=json.load(open(P.out('rg_corrected.json')))['security_false_positive_structure']; q=fp['by_query']
 order=sorted(q.items(),key=lambda kv:-kv[1])
 names={'노비촉':'Novichok','방사능 유출':'Radiation leak','북한 핵실험':'DPRK nuclear test','탄저균 테러':'Anthrax',
        '화학무기 사용':'Chemical weapons','더티밤':'Dirty bomb','사린가스 공격':'Sarin','북한 생화학무기':'DPRK CB weapons',
@@ -55,6 +61,7 @@ ax.text(-0.34,1.01,'b',transform=ax.transAxes,fontsize=AX+3,fontweight='bold',va
 plt.tight_layout(rect=[0,0,1,0.90])
 h,l=axes[0].get_legend_handles_labels()
 fig.legend(h,l,fontsize=LG,frameon=False,loc='upper center',bbox_to_anchor=(0.5,1.0),ncol=3,columnspacing=1.6,handlelength=1.3)
-out=BASE+'/figure/Fig5_human_validation.pdf'; os.makedirs(BASE+'/figure',exist_ok=True)
+FIGDIR=os.path.join(BASE,'figure') if os.path.isdir(os.path.join(BASE,'figure')) else os.path.join(BASE,'figures')
+os.makedirs(FIGDIR,exist_ok=True); out=os.path.join(FIGDIR,'Fig5_human_validation.pdf')
 plt.savefig(out,bbox_inches='tight'); plt.savefig(out.replace('.pdf','.png'),dpi=200,bbox_inches='tight')
 print('saved',out)

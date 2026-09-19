@@ -1,6 +1,6 @@
 # refbias
 
-Replication material for **"How much of hazard news is news? Decomposing open-source coverage of chemical accidents and CBRN threats for disaster risk reduction"** (submitted to the *International Journal of Disaster Risk Reduction*).
+Replication material for **"How much of hazard news is news? Decomposing open-source coverage of chemical accidents and CBRN threats for hazard surveillance"** (submitted to *Safety Science*).
 
 The study decomposes 109,610 Korean news articles retrieved by 30 hazard queries into five components — new event, past-event reference, institutional activity, other, off-topic — and asks how much of hazard news volume is evidence that something happened. On a human reference standard, 5.0% of CBRN security articles report an event, against 38% for conventional terrorism and 34% for industrial chemical accidents.
 
@@ -63,7 +63,7 @@ Code is released under the MIT Licence (`LICENSE`). Labels, derived outputs and 
 
 ## Citation
 
-Kim, M., Cha, J., Shin, M., Choi, G., Kang, K. How much of hazard news is news? Decomposing open-source coverage of chemical accidents and CBRN threats for disaster risk reduction. Submitted.
+Kim, M., Cha, J., Shin, M., Choi, G., Kang, K. How much of hazard news is news? Decomposing open-source coverage of chemical accidents and CBRN threats for hazard surveillance. Submitted.
 
 Corresponding author: Ku Kang (bisu9082@gmail.com).
 

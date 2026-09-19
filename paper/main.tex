@@ -8,7 +8,7 @@
 \usepackage[hidelinks]{hyperref}
 \graphicspath{{.}{fig/}{../figure/set_v2/}}
 \biboptions{numbers,sort&compress}
-\journal{International Journal of Disaster Risk Reduction}
+\journal{Safety Science}
 \linenumbers
 
 \usepackage{url}
@@ -16,7 +16,7 @@
 
 \begin{frontmatter}
 
-\title{How much of hazard news is news? Decomposing open-source coverage of chemical accidents and CBRN threats for disaster risk reduction}
+\title{How much of hazard news is news? Decomposing open-source coverage of chemical accidents and CBRN threats for hazard surveillance}
 
 \author[cbrn]{Miae Kim}
 \author[knpa]{Janghyeon Cha}
@@ -29,11 +29,11 @@
 \address[knpa]{Korean National Police Agency, Seoul, Republic of Korea}
 
 \begin{abstract}
-Planners read news volume as a proxy for hazard frequency, especially for chemical, biological, radiological and nuclear (CBRN) threats, which have no registry. Is an article about a hazard evidence that anything happened? We collected 109,610 Korean articles (54 outlets, 2021--2026) for 30 queries in three blocks: industrial chemical accidents, CBRN security threats and conventional terrorism. A language model coded a stratified gold set of 2,867 articles into five components from new event to off-topic, a second model coded 600 of them for reliability, and two authors then coded a 400-article subset independently ($\kappa = 0.85$). The models matched them for conventional terrorism and diverged severely for CBRN threats ($\kappa = 0.24$), counting topically adjacent occurrences the codebook excludes. On the human standard, 219 agreed articles in this block, 5.0\% of CBRN security articles report an event (95\% CI 2.5--7.9; 4.4--6.0 across treatments of coder disagreement) against 38\% and 34\% in the controls: 22.5 articles per unique CBRN event (95\% CI 14.2--44.0), a lower bound by design. Excluding off-topic retrievals leaves 13.9\% against 52.1\% and 59.6\%, so the contrast is not an artefact of query precision; its significance tests use model labels, which overstate the CBRN share but not the contrast. Reference bias, the share of articles citing a past anchor event, is 89\% for Novichok and 33\% for hydrogen fluoride against 1--2\% for same-sector controls, and a rule naming no anchor reproduces the gap because the controls have no canonical occurrence to cite. Article counts for six chemicals bear no detectable relation to registry counts (log--log slope $-0.07$, CI $-0.89$ to $0.76$). The decomposition converts volume into a bounded event estimate and separates inherited salience from current incidence; we set out the procedure an agency can run on its own archive.
+Safety and security functions read news volume as a proxy for hazard frequency, especially for chemical, biological, radiological and nuclear (CBRN) threats, which have no registry. Is an article about a hazard evidence that anything happened? We collected 109,610 Korean articles for 30 queries in three blocks: industrial chemical accidents, CBRN security threats and conventional terrorism. A language model coded a stratified gold set of 2,867 articles into five components from new event to off-topic, a second model coded 600 for reliability, and two authors coded a 400-article subset ($\kappa = 0.85$). The models matched them for conventional terrorism and diverged severely for CBRN threats ($\kappa = 0.24$), counting topically adjacent occurrences the codebook excludes. On the human standard, 5.0\% of CBRN security articles report an event (95\% CI 2.5--7.9; 4.4--6.0 across treatments of disagreement) against 38\% and 34\% in the controls: 22.5 articles per unique CBRN event, a lower bound by design. Excluding off-topic retrievals leaves 13.9\% against 52.1\% and 59.6\%, so the contrast is not an artefact of query precision. Reference bias, the share of articles citing a past anchor event, is 89\% for Novichok and 33\% for hydrogen fluoride against 1--2\% for matched controls, and a rule naming no anchor reproduces the gap. Article counts for six chemicals bear no detectable relation to registry counts (log--log slope $-0.07$). The decomposition converts volume into a bounded event estimate and separates inherited salience from current incidence, and we give the procedure an organisation can run on its own archive.
 \end{abstract}
 
 \begin{keyword}
-event-based surveillance \sep CBRN \sep chemical accidents \sep social amplification of risk \sep news media \sep reference bias \sep disaster risk reduction
+event-based surveillance \sep CBRN \sep chemical accidents \sep risk assessment \sep news media \sep reference bias \sep measurement error
 \end{keyword}
 
 \end{frontmatter}
@@ -410,7 +410,7 @@ Coding was performed by two language models from the same vendor; their agreemen
 
 \subsection{A procedure for practice}
 \label{sec:practice}
-The Sendai Framework's first priority is understanding disaster risk, and it asks national authorities to build and maintain hazard and loss data on which everything downstream rests; its Target G asks them to extend multi-hazard early warning. Both run into the same wall for the hazards considered here. There is no loss database for a nerve-agent attack that did not happen, and an early-warning system needs a baseline rate to alert against. Open sources are what agencies reach for when the registry is missing, and the progress reviews of multi-hazard early warning note that the data underpinning such systems is often the weakest link rather than the technology \cite{rokhideh2025mhews}. The decomposition below is a way of stating what an open-source baseline is actually made of before it is used as one. It does not create incidence data where none exists; it says how much of a volume figure is not incidence, which is the prior question for both Priority 1 and Target G.
+Sizing a hazard is the first step of any risk assessment, and for the hazards considered here it is the step with the weakest data. An industrial substance has a registry; a nerve-agent attack that has not happened has no loss database, and no alerting threshold can be set against a baseline rate nobody has estimated. Open sources are what an organisation reaches for when the registry is missing, and reviews of open-source warning systems note that the data underpinning them, rather than the technology reading it, is usually the limiting factor \cite{rokhideh2025mhews}. That is where this decomposition belongs. It does not create incidence data where none exists; it states what an open-source baseline is actually made of before a safety or security function uses it as one, which is the prior question for both hazard sizing and threshold setting.
 
 The steps below apply these results to a single hazard and a single archive. The cost is one coding pass over a few hundred headlines, which a single analyst can do in a day or two per hazard; running it as we ran it, with two independent coders on 400 articles, doubles that and is what we would recommend for a hazard whose number will be quoted. A lexicon of twenty hazards is therefore a few analyst-weeks, not an afternoon, and it is a one-off per hazard rather than a recurring load, since the quantities are properties of a hazard's coverage over a window rather than of a live stream. Where that cost is not available, coding 200 articles with one coder gives the event share to within about seven points at the values we observe, which is enough to separate a hazard whose coverage is mostly events from one whose coverage is mostly not.
 

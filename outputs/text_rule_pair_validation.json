@@ -1,0 +1,68 @@
+[
+ {
+  "theta": 0.2,
+  "use_loc": true,
+  "pairs_text": 789,
+  "pairs_llm": 465,
+  "pair_precision": 0.2864385297845374,
+  "pair_recall": 0.4860215053763441,
+  "pair_f1": 0.36044657097288674,
+  "m_text": 1.4775641025641026,
+  "m_llm": 1.3190271816881258
+ },
+ {
+  "theta": 0.2,
+  "use_loc": false,
+  "pairs_text": 892,
+  "pairs_llm": 465,
+  "pair_precision": 0.2825112107623318,
+  "pair_recall": 0.5419354838709678,
+  "pair_f1": 0.3714075165806927,
+  "m_text": 1.589655172413793,
+  "m_llm": 1.3190271816881258
+ },
+ {
+  "theta": 0.25,
+  "use_loc": true,
+  "pairs_text": 590,
+  "pairs_llm": 465,
+  "pair_precision": 0.3152542372881356,
+  "pair_recall": 0.4,
+  "pair_f1": 0.3526066350710901,
+  "m_text": 1.3843843843843844,
+  "m_llm": 1.3190271816881258
+ },
+ {
+  "theta": 0.25,
+  "use_loc": false,
+  "pairs_text": 649,
+  "pairs_llm": 465,
+  "pair_precision": 0.30970724191063176,
+  "pair_recall": 0.432258064516129,
+  "pair_f1": 0.36086175942549364,
+  "m_text": 1.4611727416798732,
+  "m_llm": 1.3190271816881258
+ },
+ {
+  "theta": 0.35,
+  "use_loc": true,
+  "pairs_text": 357,
+  "pairs_llm": 465,
+  "pair_precision": 0.3473389355742297,
+  "pair_recall": 0.26666666666666666,
+  "pair_f1": 0.3017031630170316,
+  "m_text": 1.240915208613728,
+  "m_llm": 1.3190271816881258
+ },
+ {
+  "theta": 0.35,
+  "use_loc": false,
+  "pairs_text": 380,
+  "pairs_llm": 465,
+  "pair_precision": 0.3394736842105263,
+  "pair_recall": 0.27741935483870966,
+  "pair_f1": 0.30532544378698223,
+  "m_text": 1.2734806629834254,
+  "m_llm": 1.3190271816881258
+ }
+]

@@ -1,0 +1,426 @@
+{
+ "A_ci_from_pE": {
+  "industrial": {
+   "m": 1.7489539748953975,
+   "pE": 0.43226473629782836,
+   "A": 4.04602510460251,
+   "ci95": [
+    3.817694116758125,
+    4.303405836447454
+   ]
+  },
+  "security": {
+   "m": 1.1176470588235294,
+   "pE": 0.10555555555555556,
+   "A": 10.588235294117647,
+   "ci95": [
+    9.062003179650238,
+    12.573529411764707
+   ]
+  },
+  "conventional": {
+   "m": 1.1855072463768115,
+   "pE": 0.409,
+   "A": 2.898550724637681,
+   "ci95": [
+    2.725304014659337,
+    3.0953191811405
+   ]
+  },
+  "all": {
+   "m": 1.3802395209580838,
+   "pE": 0.3215905127310778,
+   "A": 4.29191616766467,
+   "ci95": [
+    4.113458114955121,
+    4.4916534694515615
+   ]
+  }
+ },
+ "cramers_V": {
+  "five_component": 0.2775198078849864,
+  "event_vs_rest": 0.3135358780709556
+ },
+ "domestic_detail": {
+  "no_place": 47,
+  "by_dom": {
+   "domestic": 604,
+   "foreign": 215,
+   "foreign_by_text": 56,
+   "unknown": 47
+  }
+ },
+ "U_first": {
+  "security vs industrial": {
+   "U": 12.0,
+   "p": 0.004555853805859206
+  },
+  "security vs conventional": {
+   "U": 16.0,
+   "p": 0.011176368265676235
+  },
+  "industrial vs conventional": {
+   "U": 48.5,
+   "p": 0.9395612918732799
+  }
+ },
+ "anchor_bases": {
+  "Q01": {
+   "V": 363,
+   "rho_title_excerpt": 0.1046831955922865,
+   "rho_with_keywords": 0.3305785123966942,
+   "gold_n": 100,
+   "gold_mention_te": 0.11,
+   "gold_mention_all": 0.32,
+   "gold_mention_te_n": 11,
+   "gold_mention_all_n": 32,
+   "EVENT_share_te": 0.0,
+   "EVENT_share_all": 0.1875,
+   "REF_share_all": 0.0625,
+   "keyword_only_n": 21,
+   "EVENT_share_keyword_only": 0.2857142857142857,
+   "nonevent_anchor_share_all": 0.26
+  },
+  "Q04": {
+   "V": 254,
+   "rho_title_excerpt": 0.0,
+   "rho_with_keywords": 0.023622047244094488,
+   "gold_n": 100,
+   "gold_mention_te": 0.0,
+   "gold_mention_all": 0.03,
+   "gold_mention_te_n": 0,
+   "gold_mention_all_n": 3,
+   "EVENT_share_te": null,
+   "EVENT_share_all": 0.0,
+   "REF_share_all": 0.0,
+   "keyword_only_n": 3,
+   "EVENT_share_keyword_only": 0.0,
+   "nonevent_anchor_share_all": 0.03
+  },
+  "Q08": {
+   "V": 216,
+   "rho_title_excerpt": 0.0,
+   "rho_with_keywords": 0.013888888888888888,
+   "gold_n": 100,
+   "gold_mention_te": 0.0,
+   "gold_mention_all": 0.02,
+   "gold_mention_te_n": 0,
+   "gold_mention_all_n": 2,
+   "EVENT_share_te": null,
+   "EVENT_share_all": 0.5,
+   "REF_share_all": 0.0,
+   "keyword_only_n": 2,
+   "EVENT_share_keyword_only": 0.5,
+   "nonevent_anchor_share_all": 0.01
+  },
+  "Q03": {
+   "V": 241,
+   "rho_title_excerpt": 0.008298755186721992,
+   "rho_with_keywords": 0.02074688796680498,
+   "gold_n": 100,
+   "gold_mention_te": 0.0,
+   "gold_mention_all": 0.0,
+   "gold_mention_te_n": 0,
+   "gold_mention_all_n": 0,
+   "EVENT_share_te": null,
+   "EVENT_share_all": null,
+   "REF_share_all": null,
+   "keyword_only_n": 0,
+   "EVENT_share_keyword_only": null,
+   "nonevent_anchor_share_all": 0.0
+  },
+  "Q12": {
+   "V": 41,
+   "rho_title_excerpt": 0.24390243902439024,
+   "rho_with_keywords": 0.5609756097560976,
+   "gold_n": 41,
+   "gold_mention_te": 0.24390243902439024,
+   "gold_mention_all": 0.5609756097560976,
+   "gold_mention_te_n": 10,
+   "gold_mention_all_n": 23,
+   "EVENT_share_te": 0.2,
+   "EVENT_share_all": 0.13043478260869565,
+   "REF_share_all": 0.2608695652173913,
+   "keyword_only_n": 13,
+   "EVENT_share_keyword_only": 0.07692307692307693,
+   "nonevent_anchor_share_all": 0.4878048780487805
+  },
+  "Q14": {
+   "V": 309,
+   "rho_title_excerpt": 0.14563106796116504,
+   "rho_with_keywords": 0.3818770226537217,
+   "gold_n": 100,
+   "gold_mention_te": 0.14,
+   "gold_mention_all": 0.41,
+   "gold_mention_te_n": 14,
+   "gold_mention_all_n": 41,
+   "EVENT_share_te": 0.35714285714285715,
+   "EVENT_share_all": 0.17073170731707318,
+   "REF_share_all": 0.024390243902439025,
+   "keyword_only_n": 27,
+   "EVENT_share_keyword_only": 0.07407407407407407,
+   "nonevent_anchor_share_all": 0.34
+  },
+  "Q19": {
+   "V": 224,
+   "rho_title_excerpt": 0.5133928571428571,
+   "rho_with_keywords": 0.8928571428571429,
+   "gold_n": 100,
+   "gold_mention_te": 0.56,
+   "gold_mention_all": 0.9,
+   "gold_mention_te_n": 56,
+   "gold_mention_all_n": 90,
+   "EVENT_share_te": 0.30357142857142855,
+   "EVENT_share_all": 0.2777777777777778,
+   "REF_share_all": 0.1,
+   "keyword_only_n": 34,
+   "EVENT_share_keyword_only": 0.23529411764705882,
+   "nonevent_anchor_share_all": 0.65
+  },
+  "Q16": {
+   "V": 2704,
+   "rho_title_excerpt": 0.26886094674556216,
+   "rho_with_keywords": 0.4489644970414201,
+   "gold_n": 100,
+   "gold_mention_te": 0.29,
+   "gold_mention_all": 0.44,
+   "gold_mention_te_n": 29,
+   "gold_mention_all_n": 44,
+   "EVENT_share_te": 0.2413793103448276,
+   "EVENT_share_all": 0.20454545454545456,
+   "REF_share_all": 0.022727272727272728,
+   "keyword_only_n": 15,
+   "EVENT_share_keyword_only": 0.13333333333333333,
+   "nonevent_anchor_share_all": 0.35
+  }
+ },
+ "poststrat_query_boot": {
+  "industrial": {
+   "query_cluster_ci": [
+    0.11384803266801165,
+    0.5530777585458192
+   ],
+   "jeffreys_ci": [
+    0.2610712565087554,
+    0.31332091582275573
+   ]
+  },
+  "security": {
+   "query_cluster_ci": [
+    0.04637695218691904,
+    0.22798202816276486
+   ],
+   "jeffreys_ci": [
+    0.07244027633144785,
+    0.1578617287763096
+   ]
+  },
+  "conventional": {
+   "query_cluster_ci": [
+    0.2367267297047074,
+    0.5566256395644729
+   ],
+   "jeffreys_ci": [
+    0.2773340428073524,
+    0.38387720654417234
+   ]
+  },
+  "all": {
+   "query_cluster_ci": [
+    0.1649273313448523,
+    0.4482446348279481
+   ],
+   "jeffreys_ci": [
+    0.22991314206732066,
+    0.3070586499316204
+   ]
+  }
+ },
+ "loqo": {
+  "by_block": {
+   "industrial": {
+    "macro_f1_mean": 0.6391802909283847,
+    "event_f1_mean": 0.8550208405663966,
+    "event_f1_weighted": 0.8531756365733157,
+    "pE_true": 0.43226473629782836,
+    "pE_pred": 0.4643226473629783
+   },
+   "security": {
+    "macro_f1_mean": 0.41511235030494537,
+    "event_f1_mean": 0.39803037142695585,
+    "event_f1_weighted": 0.3842221740893467,
+    "pE_true": 0.10555555555555556,
+    "pE_pred": 0.06333333333333334
+   },
+   "conventional": {
+    "macro_f1_mean": 0.5779659525043871,
+    "event_f1_mean": 0.786636548892945,
+    "event_f1_weighted": 0.7866365488929451,
+    "pE_true": 0.409,
+    "pE_pred": 0.418
+   },
+   "all": {
+    "macro_f1_mean": 0.5440861979125723,
+    "event_f1_mean": 0.6798959202954326,
+    "event_f1_weighted": 0.6827545678896944,
+    "pE_true": 0.3215905127310778,
+    "pE_pred": 0.32228810603418206
+   }
+  },
+  "overall": {}
+ },
+ "wording": {
+  "queries_with_occurrence_noun": {
+   "비CBRN": 8,
+   "산업": 9,
+   "안보": 5
+  },
+  "industrial": {
+   "occ_true_pE": 0.4643946932006633,
+   "occ_false_pE": 0.03,
+   "n_occ": 9
+  },
+  "security": {
+   "occ_true_pE": 0.13036295990078545,
+   "occ_false_pE": 0.078,
+   "n_occ": 5
+  },
+  "conventional": {
+   "occ_true_pE": 0.4525,
+   "occ_false_pE": 0.23500000000000001,
+   "n_occ": 8
+  },
+  "security_occ_vs_industrial": {
+   "U": 8.0,
+   "p": 0.04311071351849386,
+   "n": 5,
+   "median_sec_occ": 0.11
+  },
+  "security_occ_vs_conventional": {
+   "p": 0.0858489937587912
+  },
+  "Q30_to_security": {
+   "kruskal_p": 0.001316177202743336,
+   "sec_vs_ind_p": 0.0030720407596729594,
+   "sec_vs_conv_p": 0.0018036409497745793,
+   "ind_vs_conv_p": 0.6523800626023114
+  }
+ },
+ "N_events_vs_registry": [
+  {
+   "qid": "Q01",
+   "query": "불산 누출",
+   "V_window": 244,
+   "pE_poststrat": 0.4048933694309869,
+   "m_sample": 1.25,
+   "N_events": 79.03518571292865,
+   "domestic_share": 0.95,
+   "N_events_domestic": 75.08342642728222,
+   "registry": 12,
+   "ratio": 6.256952202273518
+  },
+  {
+   "qid": "Q02",
+   "query": "암모니아 누출 사고",
+   "V_window": 262,
+   "pE_poststrat": 0.4989758236464246,
+   "m_sample": 1.8518518518518519,
+   "N_events": 70.59509952949615,
+   "domestic_share": 0.98,
+   "N_events_domestic": 69.18319753890623,
+   "registry": 24,
+   "ratio": 2.8826332307877593
+  },
+  {
+   "qid": "Q03",
+   "query": "염소 가스 누출",
+   "V_window": 162,
+   "pE_poststrat": 0.3554111072060331,
+   "m_sample": 1.3461538461538463,
+   "N_events": 42.77118810148032,
+   "domestic_share": 1.0,
+   "N_events_domestic": 42.77118810148032,
+   "registry": 10,
+   "ratio": 4.277118810148032
+  },
+  {
+   "qid": "Q04",
+   "query": "황산 유출 사고",
+   "V_window": 164,
+   "pE_poststrat": 0.7034039975772259,
+   "m_sample": 1.864864864864865,
+   "N_events": 61.85877474345807,
+   "domestic_share": 0.9855072463768116,
+   "N_events_domestic": 60.962270761668826,
+   "registry": 55,
+   "ratio": 1.1084049229394333
+  },
+  {
+   "qid": "Q07",
+   "query": "톨루엔 누출",
+   "V_window": 97,
+   "pE_poststrat": 0.4024522225741738,
+   "m_sample": 1.5384615384615385,
+   "N_events": 25.37461263330166,
+   "domestic_share": 1.0,
+   "N_events_domestic": 25.37461263330166,
+   "registry": 14,
+   "ratio": 1.8124723309501185
+  },
+  {
+   "qid": "Q08",
+   "query": "질산 누출",
+   "V_window": 110,
+   "pE_poststrat": 0.7332846438238595,
+   "m_sample": 2.1470588235294117,
+   "N_events": 37.56828175207171,
+   "domestic_share": 0.9863013698630136,
+   "N_events_domestic": 37.053647755467985,
+   "registry": 36,
+   "ratio": 1.029267993207444
+  }
+ ],
+ "N_events_vs_registry_stats": {
+  "spearman": -0.08571428571428573,
+  "p": 0.8717434402332361,
+  "loglog_slope": 0.1032531852551089,
+  "r": 0.16581494551116707,
+  "ratio_min": 1.029267993207444,
+  "ratio_max": 6.256952202273518
+ },
+ "wilson": {
+  "p=0.1 n=100": [
+   5.5,
+   17.4
+  ],
+  "p=0.1 n=200": [
+   6.6,
+   14.9
+  ],
+  "p=0.1 n=400": [
+   7.4,
+   13.3
+  ],
+  "p=0.1 n=800": [
+   8.1,
+   12.3
+  ],
+  "p=0.3 n=100": [
+   21.9,
+   39.6
+  ],
+  "p=0.3 n=200": [
+   24.1,
+   36.7
+  ],
+  "p=0.3 n=400": [
+   25.7,
+   34.7
+  ],
+  "p=0.3 n=800": [
+   26.9,
+   33.3
+  ]
+ },
+ "_removed_note": "tpr_fpr (분류기 교차검증 비율 기반 Rogan-Gladen 코퍼스 보정)는 인간 기준 비율로 대체되어 삭제. 최종값은 Step5r/v8_final_numbers.json 참조."
+}

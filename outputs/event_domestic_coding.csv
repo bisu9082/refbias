@@ -1,0 +1,923 @@
+﻿sid,qid,block,query,ev_place,dom
+S00006,Q05,산업,화학공장 폭발,여수시,domestic
+S00010,Q16,안보,방사능 유출,부산 기장군,domestic
+S00016,Q18,안보,백색가루 신고,인천 부평구,domestic
+S00017,Q14,안보,탄저균 테러,,foreign_by_text
+S00026,Q22,비CBRN,사제폭탄,전국,domestic
+S00027,Q27,비CBRN,테러 예고 글,성남시,domestic
+S00029,Q29,비CBRN,공항 폭발물 신고,제주시,domestic
+S00031,Q03,산업,염소 가스 누출,수원시,domestic
+S00034,Q16,안보,방사능 유출,자포리자,foreign
+S00035,Q26,비CBRN,폭발물 협박,서울 종로구,domestic
+S00038,Q03,산업,염소 가스 누출,군산시,domestic
+S00040,Q21,비CBRN,폭발물 테러,가자지구,foreign
+S00041,Q21,비CBRN,폭발물 테러,빈,foreign_by_text
+S00044,Q05,산업,화학공장 폭발,웨이팡시,domestic
+S00048,Q25,비CBRN,차량 돌진 테러,스트레피-브라케니스,foreign_by_text
+S00049,Q22,비CBRN,사제폭탄,,unknown
+S00050,Q25,비CBRN,차량 돌진 테러,밀워키,foreign_by_text
+S00051,Q08,산업,질산 누출,군산시,domestic
+S00055,Q26,비CBRN,폭발물 협박,인천시,domestic
+S00059,Q21,비CBRN,폭발물 테러,케르만,foreign_by_text
+S00063,Q21,비CBRN,폭발물 테러,안티오키아,unknown
+S00064,Q08,산업,질산 누출,포항시,domestic
+S00073,Q04,산업,황산 유출 사고,제천시,domestic
+S00075,Q08,산업,질산 누출,수원시,domestic
+S00076,Q04,산업,황산 유출 사고,달성군,domestic
+S00080,Q07,산업,톨루엔 누출,울산시,domestic
+S00085,Q03,산업,염소 가스 누출,대전 서구,domestic
+S00090,Q08,산업,질산 누출,수원시,domestic
+S00091,Q25,비CBRN,차량 돌진 테러,뉴올리언스,foreign
+S00093,Q16,안보,방사능 유출,이란,foreign
+S00098,Q14,안보,탄저균 테러,,foreign_by_text
+S00105,Q03,산업,염소 가스 누출,인천 서구,domestic
+S00112,Q26,비CBRN,폭발물 협박,서울 용산구,domestic
+S00114,Q04,산업,황산 유출 사고,서울 성동구,domestic
+S00115,Q25,비CBRN,차량 돌진 테러,독일,foreign
+S00119,Q25,비CBRN,차량 돌진 테러,마그데부르크,foreign_by_text
+S00121,Q02,산업,암모니아 누출 사고,오산시,domestic
+S00123,Q16,안보,방사능 유출,경주시,domestic
+S00127,Q22,비CBRN,사제폭탄,,unknown
+S00128,Q08,산업,질산 누출,여수시,domestic
+S00131,Q03,산업,염소 가스 누출,의정부시,domestic
+S00136,Q11,안보,화학무기 사용,우크라이나,foreign
+S00143,Q04,산업,황산 유출 사고,창원시,domestic
+S00145,Q04,산업,황산 유출 사고,서울 성동구,domestic
+S00146,Q22,비CBRN,사제폭탄,,unknown
+S00147,Q28,비CBRN,다중이용시설 테러,부산 사하구,domestic
+S00149,Q27,비CBRN,테러 예고 글,,unknown
+S00153,Q29,비CBRN,공항 폭발물 신고,부산시,domestic
+S00154,Q02,산업,암모니아 누출 사고,서울 영등포구,domestic
+S00157,Q01,산업,불산 누출,화성시,domestic
+S00158,Q21,비CBRN,폭발물 테러,나이아가라폴스,foreign_by_text
+S00161,Q09,산업,유독가스 누출 대피,부산 사상구,domestic
+S00165,Q08,산업,질산 누출,수원시,domestic
+S00166,Q24,비CBRN,총기 난사,살라망카시,domestic
+S00180,Q04,산업,황산 유출 사고,창원시,domestic
+S00181,Q25,비CBRN,차량 돌진 테러,워싱턴DC,foreign_by_text
+S00183,Q25,비CBRN,차량 돌진 테러,뉴올리언스,foreign
+S00189,Q05,산업,화학공장 폭발,화성시,domestic
+S00202,Q26,비CBRN,폭발물 협박,수원시,domestic
+S00203,Q19,안보,노비촉,러시아,foreign
+S00206,Q27,비CBRN,테러 예고 글,서울시,domestic
+S00208,Q24,비CBRN,총기 난사,프리토리아,foreign_by_text
+S00209,Q08,산업,질산 누출,수원시,domestic
+S00210,Q08,산업,질산 누출,포항시,domestic
+S00212,Q18,안보,백색가루 신고,대구 수성구,domestic
+S00215,Q16,안보,방사능 유출,자포리자,foreign
+S00216,Q24,비CBRN,총기 난사,앨버커키,foreign_by_text
+S00218,Q24,비CBRN,총기 난사,루이스턴,foreign_by_text
+S00225,Q08,산업,질산 누출,후쿠시마,foreign
+S00226,Q22,비CBRN,사제폭탄,광주 서구,domestic
+S00227,Q29,비CBRN,공항 폭발물 신고,,foreign_by_text
+S00230,Q19,안보,노비촉,러시아,foreign
+S00232,Q07,산업,톨루엔 누출,오산시,domestic
+S00235,Q29,비CBRN,공항 폭발물 신고,광주 광산구,domestic
+S00236,Q07,산업,톨루엔 누출,울주군,domestic
+S00238,Q21,비CBRN,폭발물 테러,뉴올리언스,foreign
+S00239,Q26,비CBRN,폭발물 협박,부산 사하구,domestic
+S00244,Q07,산업,톨루엔 누출,여수시,domestic
+S00245,Q24,비CBRN,총기 난사,슈리브포트,foreign_by_text
+S00246,Q19,안보,노비촉,러시아,foreign
+S00247,Q19,안보,노비촉,우크라이나,foreign
+S00251,Q09,산업,유독가스 누출 대피,청주시,domestic
+S00252,Q14,안보,탄저균 테러,제주시,domestic
+S00259,Q23,비CBRN,드론 공격,카불,foreign
+S00263,Q04,산업,황산 유출 사고,서울 성동구,domestic
+S00271,Q08,산업,질산 누출,전주시,domestic
+S00281,Q27,비CBRN,테러 예고 글,대구시,domestic
+S00286,Q06,산업,유해화학물질 유출,음성군,domestic
+S00290,Q03,산업,염소 가스 누출,의정부시,domestic
+S00291,Q26,비CBRN,폭발물 협박,성남시 분당구,domestic
+S00292,Q05,산업,화학공장 폭발,여수시,domestic
+S00296,Q06,산업,유해화학물질 유출,진천군 이월면,domestic
+S00297,Q04,산업,황산 유출 사고,창원시 의창구,domestic
+S00299,Q05,산업,화학공장 폭발,영천시 금호읍,domestic
+S00300,Q14,안보,탄저균 테러,제주시 조천읍,domestic
+S00302,Q03,산업,염소 가스 누출,의정부시,domestic
+S00304,Q04,산업,황산 유출 사고,대구 달성군,domestic
+S00312,Q08,산업,질산 누출,대구 북구,domestic
+S00313,Q02,산업,암모니아 누출 사고,완도군,domestic
+S00320,Q08,산업,질산 누출,완주군 봉동읍,domestic
+S00324,Q08,산업,질산 누출,안동시 임동면,domestic
+S00326,Q01,산업,불산 누출,포항시 남구,domestic
+S00330,Q26,비CBRN,폭발물 협박,서울 구로구,domestic
+S00334,Q23,비CBRN,드론 공격,이란,foreign
+S00338,Q25,비CBRN,차량 돌진 테러,뉴올리언스,foreign
+S00339,Q07,산업,톨루엔 누출,화성시,domestic
+S00347,Q02,산업,암모니아 누출 사고,제주시 한림읍,domestic
+S00350,Q26,비CBRN,폭발물 협박,서울,domestic
+S00354,Q29,비CBRN,공항 폭발물 신고,김해공항,unknown
+S00360,Q22,비CBRN,사제폭탄,가나가와현 가마쿠라시,domestic
+S00363,Q02,산업,암모니아 누출 사고,제주시 한림읍,domestic
+S00364,Q07,산업,톨루엔 누출,오산시 누읍동,domestic
+S00365,Q29,비CBRN,공항 폭발물 신고,영국,foreign
+S00366,Q22,비CBRN,사제폭탄,,unknown
+S00370,Q09,산업,유독가스 누출 대피,보은군 삼승면,domestic
+S00371,Q24,비CBRN,총기 난사,다게스탄 데르벤트,foreign
+S00373,Q27,비CBRN,테러 예고 글,성남시 분당구,domestic
+S00379,Q09,산업,유독가스 누출 대피,서천군 서천읍,domestic
+S00384,Q02,산업,암모니아 누출 사고,오산시 부산동,domestic
+S00387,Q27,비CBRN,테러 예고 글,성남시 분당구,domestic
+S00396,Q09,산업,유독가스 누출 대피,서천군 서천읍,domestic
+S00398,Q27,비CBRN,테러 예고 글,타이베이,foreign_by_text
+S00399,Q08,산업,질산 누출,포항시 남구,domestic
+S00408,Q04,산업,황산 유출 사고,제주시 영평동,domestic
+S00412,Q23,비CBRN,드론 공격,키이우,foreign
+S00413,Q24,비CBRN,총기 난사,시드니,foreign_by_text
+S00416,Q09,산업,유독가스 누출 대피,부산 사상구,domestic
+S00420,Q07,산업,톨루엔 누출,여수시 화치동,domestic
+S00425,Q09,산업,유독가스 누출 대피,서천군 서천읍,domestic
+S00431,Q19,안보,노비촉,살레하르트,foreign_by_text
+S00436,Q08,산업,질산 누출,포항시 남구,domestic
+S00437,Q09,산업,유독가스 누출 대피,봉화군 석포면,domestic
+S00441,Q07,산업,톨루엔 누출,대전,domestic
+S00450,Q09,산업,유독가스 누출 대피,김포시 하성면,domestic
+S00454,Q08,산업,질산 누출,포항시 남구,domestic
+S00455,Q26,비CBRN,폭발물 협박,서울 용산구,domestic
+S00457,Q22,비CBRN,사제폭탄,카이버 파크툰크와,foreign_by_text
+S00459,Q08,산업,질산 누출,군산시,domestic
+S00460,Q25,비CBRN,차량 돌진 테러,밴쿠버,foreign_by_text
+S00463,Q24,비CBRN,총기 난사,프라하,unknown
+S00464,Q26,비CBRN,폭발물 협박,,foreign_by_text
+S00466,Q24,비CBRN,총기 난사,뉴욕 브루클린,foreign
+S00473,Q02,산업,암모니아 누출 사고,김포시 하성면,domestic
+S00475,Q24,비CBRN,총기 난사,시드니,foreign_by_text
+S00477,Q16,안보,방사능 유출,자포리자,foreign
+S00481,Q02,산업,암모니아 누출 사고,부천시 도당동,domestic
+S00484,Q05,산업,화학공장 폭발,여수시,domestic
+S00485,Q07,산업,톨루엔 누출,여수시,domestic
+S00487,Q05,산업,화학공장 폭발,여수시,domestic
+S00489,Q23,비CBRN,드론 공격,호르무즈 해협,foreign_by_text
+S00491,Q19,안보,노비촉,러시아,foreign
+S00492,Q04,산업,황산 유출 사고,제주시 용담동,domestic
+S00493,Q24,비CBRN,총기 난사,텍사스 앨런,foreign_by_text
+S00496,Q21,비CBRN,폭발물 테러,서울 중구,domestic
+S00501,Q28,비CBRN,다중이용시설 테러,부산,domestic
+S00503,Q26,비CBRN,폭발물 협박,서울 구로구,domestic
+S00504,Q07,산업,톨루엔 누출,여수시,domestic
+S00506,Q22,비CBRN,사제폭탄,광주,domestic
+S00508,Q23,비CBRN,드론 공격,오데사,foreign
+S00509,Q03,산업,염소 가스 누출,인천 서구 석남동,domestic
+S00510,Q09,산업,유독가스 누출 대피,화성시,domestic
+S00513,Q04,산업,황산 유출 사고,정읍시,domestic
+S00514,Q26,비CBRN,폭발물 협박,서울 중구,domestic
+S00521,Q02,산업,암모니아 누출 사고,오산시 부산동,domestic
+S00527,Q16,안보,방사능 유출,이란,foreign
+S00528,Q08,산업,질산 누출,안동시 임동면,domestic
+S00531,Q29,비CBRN,공항 폭발물 신고,시카고,foreign_by_text
+S00534,Q04,산업,황산 유출 사고,군산시 오식도동,domestic
+S00535,Q29,비CBRN,공항 폭발물 신고,제주공항,domestic
+S00536,Q29,비CBRN,공항 폭발물 신고,블라디보스토크,foreign_by_text
+S00537,Q01,산업,불산 누출,군산시 오식도동,domestic
+S00539,Q02,산업,암모니아 누출 사고,울산 남구,domestic
+S00547,Q27,비CBRN,테러 예고 글,인천 연수구,domestic
+S00549,Q08,산업,질산 누출,군산시,domestic
+S00550,Q24,비CBRN,총기 난사,농부아람푸,foreign_by_text
+S00552,Q08,산업,질산 누출,전주시,domestic
+S00553,Q26,비CBRN,폭발물 협박,서울 영등포구,domestic
+S00554,Q26,비CBRN,폭발물 협박,서울,domestic
+S00557,Q01,산업,불산 누출,군산시 소룡동,domestic
+S00559,Q29,비CBRN,공항 폭발물 신고,,unknown
+S00561,Q25,비CBRN,차량 돌진 테러,성남시 분당구,domestic
+S00565,Q25,비CBRN,차량 돌진 테러,성남시 분당구,domestic
+S00567,Q25,비CBRN,차량 돌진 테러,독일,foreign
+S00575,Q29,비CBRN,공항 폭발물 신고,시카고,foreign_by_text
+S00576,Q26,비CBRN,폭발물 협박,하남시,domestic
+S00578,Q09,산업,유독가스 누출 대피,청주시,domestic
+S00584,Q04,산업,황산 유출 사고,서천군,domestic
+S00585,Q03,산업,염소 가스 누출,강릉시,domestic
+S00590,Q02,산업,암모니아 누출 사고,여수시,domestic
+S00591,Q29,비CBRN,공항 폭발물 신고,인도,foreign
+S00593,Q04,산업,황산 유출 사고,여수시,domestic
+S00601,Q26,비CBRN,폭발물 협박,안동시,domestic
+S00613,Q08,산업,질산 누출,수원시,domestic
+S00618,Q15,안보,북한 핵실험,동해,foreign_by_text
+S00619,Q01,산업,불산 누출,화성시,domestic
+S00623,Q29,비CBRN,공항 폭발물 신고,인천시,domestic
+S00625,Q16,안보,방사능 유출,우크라이나 키예프,foreign
+S00628,Q04,산업,황산 유출 사고,여수시,domestic
+S00629,Q03,산업,염소 가스 누출,수원시,domestic
+S00632,Q24,비CBRN,총기 난사,미국 체서피크,foreign
+S00637,Q08,산업,질산 누출,제주시 한림읍,domestic
+S00640,Q08,산업,질산 누출,군산시,domestic
+S00647,Q21,비CBRN,폭발물 테러,일본 와카야마,foreign
+S00652,Q22,비CBRN,사제폭탄,광주시 서구,domestic
+S00654,Q08,산업,질산 누출,인천시 동구,domestic
+S00659,Q03,산업,염소 가스 누출,의정부시,domestic
+S00660,Q05,산업,화학공장 폭발,화성시,domestic
+S00664,Q21,비CBRN,폭발물 테러,모나코,foreign_by_text
+S00666,Q24,비CBRN,총기 난사,미국 미시간,foreign
+S00668,Q27,비CBRN,테러 예고 글,서울시,domestic
+S00670,Q05,산업,화학공장 폭발,여수시,domestic
+S00671,Q02,산업,암모니아 누출 사고,부천시,domestic
+S00674,Q27,비CBRN,테러 예고 글,서울시 관악구,domestic
+S00679,Q08,산업,질산 누출,인천시 동구,domestic
+S00681,Q09,산업,유독가스 누출 대피,청주시,domestic
+S00682,Q26,비CBRN,폭발물 협박,서울시,domestic
+S00684,Q09,산업,유독가스 누출 대피,인천시 미추홀구,domestic
+S00686,Q01,산업,불산 누출,대전시 유성구,domestic
+S00694,Q21,비CBRN,폭발물 테러,용인시,domestic
+S00695,Q29,비CBRN,공항 폭발물 신고,광주시 남구,domestic
+S00696,Q08,산업,질산 누출,여수시,domestic
+S00698,Q01,산업,불산 누출,포항시,domestic
+S00702,Q02,산업,암모니아 누출 사고,서울시 영등포구,domestic
+S00705,Q26,비CBRN,폭발물 협박,평창군,domestic
+S00714,Q03,산업,염소 가스 누출,수원시 영통구,domestic
+S00717,Q22,비CBRN,사제폭탄,미국 펜실베이니아,foreign
+S00720,Q26,비CBRN,폭발물 협박,서울시,domestic
+S00721,Q25,비CBRN,차량 돌진 테러,멕시코 할리스코주,foreign
+S00724,Q29,비CBRN,공항 폭발물 신고,미국 시카고,foreign
+S00725,Q26,비CBRN,폭발물 협박,청주시,domestic
+S00727,Q02,산업,암모니아 누출 사고,대전시,domestic
+S00729,Q03,산업,염소 가스 누출,인천시,domestic
+S00731,Q04,산업,황산 유출 사고,부산시 사상구,domestic
+S00732,Q26,비CBRN,폭발물 협박,서울시 종로구,domestic
+S00733,Q06,산업,유해화학물질 유출,대구시 서구,domestic
+S00736,Q02,산업,암모니아 누출 사고,서울시 영등포구,domestic
+S00737,Q26,비CBRN,폭발물 협박,러시아 블라디보스토크,foreign
+S00744,Q07,산업,톨루엔 누출,여수시,domestic
+S00746,Q02,산업,암모니아 누출 사고,오산시,domestic
+S00750,Q30,비CBRN,원전 방사선 피폭,우크라이나 자포리자,foreign
+S00751,Q29,비CBRN,공항 폭발물 신고,서울시 중구,domestic
+S00754,Q25,비CBRN,차량 돌진 테러,미국 뉴올리언스,foreign
+S00755,Q02,산업,암모니아 누출 사고,부산시 사하구,domestic
+S00757,Q30,비CBRN,원전 방사선 피폭,일본 후쿠시마,foreign
+S00773,Q05,산업,화학공장 폭발,군산시,domestic
+S00774,Q27,비CBRN,테러 예고 글,고양시,domestic
+S00776,Q04,산업,황산 유출 사고,함안군,domestic
+S00777,Q24,비CBRN,총기 난사,러시아 다게스탄,foreign
+S00784,Q22,비CBRN,사제폭탄,서울시 서대문구,domestic
+S00791,Q02,산업,암모니아 누출 사고,부천시 도당동,domestic
+S00797,Q01,산업,불산 누출,군산시,domestic
+S00801,Q02,산업,암모니아 누출 사고,울산시 남구,domestic
+S00806,Q04,산업,황산 유출 사고,창원시,domestic
+S00807,Q24,비CBRN,총기 난사,미국 플로리다,foreign
+S00810,Q04,산업,황산 유출 사고,포항시 북구,domestic
+S00813,Q29,비CBRN,공항 폭발물 신고,인천시,domestic
+S00825,Q24,비CBRN,총기 난사,세르비아 베오그라드,unknown
+S00827,Q05,산업,화학공장 폭발,여수시,domestic
+S00828,Q29,비CBRN,공항 폭발물 신고,러시아 모스크바,foreign
+S00829,Q04,산업,황산 유출 사고,포항시 북구,domestic
+S00831,Q04,산업,황산 유출 사고,창원시,domestic
+S00833,Q04,산업,황산 유출 사고,창원시 의창구,domestic
+S00835,Q22,비CBRN,사제폭탄,서울시 노원구,domestic
+S00837,Q16,안보,방사능 유출,우크라이나 자포리자,foreign
+S00839,Q01,산업,불산 누출,포항시,domestic
+S00843,Q07,산업,톨루엔 누출,오산시,domestic
+S00848,Q07,산업,톨루엔 누출,오산시,domestic
+S00850,Q25,비CBRN,차량 돌진 테러,미국 뉴올리언스,foreign
+S00853,Q03,산업,염소 가스 누출,의정부시,domestic
+S00859,Q25,비CBRN,차량 돌진 테러,독일 마그데부르크,foreign
+S00862,Q22,비CBRN,사제폭탄,광주시 서구,domestic
+S00871,Q22,비CBRN,사제폭탄,,unknown
+S00878,Q23,비CBRN,드론 공격,홍해,foreign_by_text
+S00880,Q19,안보,노비촉,러시아 야말로네네츠,foreign
+S00884,Q16,안보,방사능 유출,우크라이나 자포리자,foreign
+S00885,Q19,안보,노비촉,우크라이나,foreign
+S00886,Q24,비CBRN,총기 난사,미국 시애틀,foreign
+S00889,Q02,산업,암모니아 누출 사고,울산시 남구,domestic
+S00890,Q25,비CBRN,차량 돌진 테러,미국 워키쇼,foreign
+S00891,Q01,산업,불산 누출,포항시 남구,domestic
+S00893,Q30,비CBRN,원전 방사선 피폭,우크라이나 체르노빌,foreign
+S00894,Q25,비CBRN,차량 돌진 테러,파키스탄 카라치,foreign
+S00895,Q28,비CBRN,다중이용시설 테러,,unknown
+S00897,Q08,산업,질산 누출,군산시,domestic
+S00900,Q02,산업,암모니아 누출 사고,서울 영등포구,domestic
+S00901,Q26,비CBRN,폭발물 협박,미국 뉴레녹스,foreign
+S00905,Q09,산업,유독가스 누출 대피,김포시 하성면,domestic
+S00906,Q29,비CBRN,공항 폭발물 신고,인천공항,domestic
+S00914,Q27,비CBRN,테러 예고 글,,unknown
+S00916,Q07,산업,톨루엔 누출,울주군 온산읍,domestic
+S00918,Q27,비CBRN,테러 예고 글,,unknown
+S00923,Q04,산업,황산 유출 사고,대구 서구 비산동,domestic
+S00926,Q03,산업,염소 가스 누출,화성시,domestic
+S00927,Q29,비CBRN,공항 폭발물 신고,제주시,domestic
+S00928,Q09,산업,유독가스 누출 대피,여수시,domestic
+S00930,Q07,산업,톨루엔 누출,오산시 누읍동,domestic
+S00937,Q29,비CBRN,공항 폭발물 신고,일본 주부공항,foreign
+S00942,Q09,산업,유독가스 누출 대피,서천군,domestic
+S00947,Q23,비CBRN,드론 공격,쿠웨이트,foreign
+S00949,Q22,비CBRN,사제폭탄,,unknown
+S00952,Q29,비CBRN,공항 폭발물 신고,,unknown
+S00954,Q04,산업,황산 유출 사고,포항시 북구 흥해읍,domestic
+S00956,Q16,안보,방사능 유출,영광군 한빛원전,domestic
+S00960,Q09,산업,유독가스 누출 대피,대전 유성구,domestic
+S00963,Q23,비CBRN,드론 공격,이란 이스파한주,foreign
+S00965,Q09,산업,유독가스 누출 대피,서천군,domestic
+S00970,Q25,비CBRN,차량 돌진 테러,성남시 분당구,domestic
+S00971,Q04,산업,황산 유출 사고,서울 성동구 행당동,domestic
+S00972,Q29,비CBRN,공항 폭발물 신고,,unknown
+S00973,Q27,비CBRN,테러 예고 글,,unknown
+S00976,Q04,산업,황산 유출 사고,창원시 의창구,domestic
+S00978,Q25,비CBRN,차량 돌진 테러,미국 뉴올리언스,foreign
+S00981,Q22,비CBRN,사제폭탄,광주 동구 지산동,domestic
+S00984,Q09,산업,유독가스 누출 대피,청주시 흥덕구,domestic
+S00991,Q25,비CBRN,차량 돌진 테러,성남시 분당구,domestic
+S00992,Q25,비CBRN,차량 돌진 테러,미국 뉴올리언스,foreign
+S00993,Q22,비CBRN,사제폭탄,,unknown
+S00996,Q22,비CBRN,사제폭탄,서울 노원구,domestic
+S00999,Q01,산업,불산 누출,화성시,domestic
+S01003,Q21,비CBRN,폭발물 테러,일본 와카야마,foreign
+S01004,Q11,안보,화학무기 사용,우크라이나 루한스크주,foreign
+S01010,Q15,안보,북한 핵실험,북한 평양 순안,foreign
+S01013,Q24,비CBRN,총기 난사,미국 유밸디카운티,foreign
+S01016,Q22,비CBRN,사제폭탄,일본 와카야마,foreign
+S01017,Q08,산업,질산 누출,당진시 송악읍,domestic
+S01018,Q27,비CBRN,테러 예고 글,성남시 분당구,domestic
+S01019,Q25,비CBRN,차량 돌진 테러,미국 샌디에이고,foreign
+S01027,Q04,산업,황산 유출 사고,정읍시 북면,domestic
+S01028,Q29,비CBRN,공항 폭발물 신고,제주시,domestic
+S01031,Q09,산업,유독가스 누출 대피,청주시 흥덕구,domestic
+S01034,Q29,비CBRN,공항 폭발물 신고,인천시,domestic
+S01036,Q21,비CBRN,폭발물 테러,미국 올버니,foreign
+S01038,Q21,비CBRN,폭발물 테러,울산시,domestic
+S01039,Q24,비CBRN,총기 난사,미국 텍사스주,foreign
+S01043,Q28,비CBRN,다중이용시설 테러,,unknown
+S01045,Q04,산업,황산 유출 사고,창원시 의창구,domestic
+S01049,Q29,비CBRN,공항 폭발물 신고,인천시,domestic
+S01050,Q11,안보,화학무기 사용,우크라이나 야보리우,foreign
+S01051,Q26,비CBRN,폭발물 협박,우크라이나 테르노필,foreign
+S01057,Q25,비CBRN,차량 돌진 테러,독일 마그데부르크,foreign
+S01058,Q26,비CBRN,폭발물 협박,인천시,domestic
+S01060,Q24,비CBRN,총기 난사,미국 라구나우즈,foreign
+S01063,Q08,산업,질산 누출,포항시 남구,domestic
+S01070,Q27,비CBRN,테러 예고 글,,unknown
+S01077,Q01,산업,불산 누출,포항시 남구,domestic
+S01081,Q22,비CBRN,사제폭탄,,unknown
+S01082,Q26,비CBRN,폭발물 협박,광주 서구,domestic
+S01089,Q29,비CBRN,공항 폭발물 신고,광주시,domestic
+S01091,Q23,비CBRN,드론 공격,이스라엘,foreign
+S01094,Q22,비CBRN,사제폭탄,미국 뉴올리언스,foreign
+S01095,Q04,산업,황산 유출 사고,창원시 의창구,domestic
+S01096,Q12,안보,사린가스 공격,일본 도쿄 주오구,foreign
+S01098,Q09,산업,유독가스 누출 대피,,foreign_by_text
+S01099,Q05,산업,화학공장 폭발,중국 인촨시,foreign
+S01104,Q02,산업,암모니아 누출 사고,오산시,domestic
+S01106,Q09,산업,유독가스 누출 대피,청주시 서원구,domestic
+S01110,Q21,비CBRN,폭발물 테러,,foreign_by_text
+S01111,Q15,안보,북한 핵실험,북한 동해,foreign
+S01112,Q09,산업,유독가스 누출 대피,청주시 서원구,domestic
+S01113,Q22,비CBRN,사제폭탄,,unknown
+S01116,Q25,비CBRN,차량 돌진 테러,미국 뉴올리언스,foreign
+S01125,Q04,산업,황산 유출 사고,대구 서구 비산동,domestic
+S01126,Q25,비CBRN,차량 돌진 테러,독일 만하임,foreign
+S01128,Q24,비CBRN,총기 난사,미국 버지니아주,foreign
+S01129,Q02,산업,암모니아 누출 사고,부천시 도당동,domestic
+S01130,Q05,산업,화학공장 폭발,영천시 금호읍,domestic
+S01134,Q21,비CBRN,폭발물 테러,미국 나이아가라폭포,foreign
+S01137,Q09,산업,유독가스 누출 대피,부산 부산진구,domestic
+S01144,Q01,산업,불산 누출,포항시 남구,domestic
+S01150,Q22,비CBRN,사제폭탄,미국 펜실베이니아주,foreign
+S01155,Q21,비CBRN,폭발물 테러,미국 뉴욕,foreign
+S01157,Q05,산업,화학공장 폭발,여수시,domestic
+S01159,Q21,비CBRN,폭발물 테러,미국 뉴올리언스,foreign
+S01160,Q05,산업,화학공장 폭발,여수시,domestic
+S01161,Q02,산업,암모니아 누출 사고,함안군 칠서면,domestic
+S01162,Q26,비CBRN,폭발물 협박,안성시,domestic
+S01163,Q27,비CBRN,테러 예고 글,성남시 분당구,domestic
+S01164,Q16,안보,방사능 유출,아부다비,foreign_by_text
+S01177,Q22,비CBRN,사제폭탄,광주 서구 치평동,domestic
+S01178,Q29,비CBRN,공항 폭발물 신고,포트로더데일,foreign_by_text
+S01180,Q10,산업,화학사고 대응,음성군 대소면,domestic
+S01181,Q27,비CBRN,테러 예고 글,대구시,domestic
+S01186,Q27,비CBRN,테러 예고 글,성남시 분당구,domestic
+S01187,Q16,안보,방사능 유출,영광군,domestic
+S01190,Q09,산업,유독가스 누출 대피,청주시,domestic
+S01198,Q09,산업,유독가스 누출 대피,서울 강동구 암사동,domestic
+S01199,Q03,산업,염소 가스 누출,수원시 영통구,domestic
+S01202,Q03,산업,염소 가스 누출,인천 서구 석남동,domestic
+S01206,Q19,안보,노비촉,러시아,foreign
+S01212,Q27,비CBRN,테러 예고 글,서울시,domestic
+S01214,Q11,안보,화학무기 사용,마리우폴,foreign_by_text
+S01217,Q29,비CBRN,공항 폭발물 신고,인천공항,domestic
+S01218,Q24,비CBRN,총기 난사,비야에르모사,foreign_by_text
+S01220,Q03,산업,염소 가스 누출,수원시 영통구,domestic
+S01221,Q26,비CBRN,폭발물 협박,수원시,domestic
+S01224,Q21,비CBRN,폭발물 테러,중국,foreign
+S01227,Q02,산업,암모니아 누출 사고,서울 영등포구 양평동,domestic
+S01234,Q21,비CBRN,폭발물 테러,서울시,domestic
+S01235,Q05,산업,화학공장 폭발,여수시 화치동,domestic
+S01236,Q25,비CBRN,차량 돌진 테러,나이아가라,foreign_by_text
+S01237,Q27,비CBRN,테러 예고 글,,unknown
+S01239,Q25,비CBRN,차량 돌진 테러,뉴올리언스,foreign
+S01241,Q19,안보,노비촉,베오그라드,foreign_by_text
+S01246,Q21,비CBRN,폭발물 테러,프랑스,foreign
+S01247,Q08,산업,질산 누출,전주시 덕진구,domestic
+S01248,Q26,비CBRN,폭발물 협박,파리,foreign
+S01257,Q05,산업,화학공장 폭발,화성시 서신면,domestic
+S01258,Q08,산업,질산 누출,인천시,domestic
+S01262,Q29,비CBRN,공항 폭발물 신고,제주시,domestic
+S01263,Q24,비CBRN,총기 난사,시드니,foreign_by_text
+S01264,Q03,산업,염소 가스 누출,서울 성동구 성수동,domestic
+S01269,Q01,산업,불산 누출,항저우,foreign_by_text
+S01270,Q10,산업,화학사고 대응,음성군 대소면,domestic
+S01275,Q21,비CBRN,폭발물 테러,서울 중구,domestic
+S01276,Q29,비CBRN,공항 폭발물 신고,인천시,domestic
+S01278,Q04,산업,황산 유출 사고,제주시 영평동,domestic
+S01279,Q05,산업,화학공장 폭발,안드라프라데시,domestic
+S01287,Q29,비CBRN,공항 폭발물 신고,인천시,domestic
+S01292,Q03,산업,염소 가스 누출,대구 달성군 논공읍,domestic
+S01294,Q26,비CBRN,폭발물 협박,광주시,domestic
+S01299,Q27,비CBRN,테러 예고 글,,unknown
+S01300,Q22,비CBRN,사제폭탄,서울 양천구,domestic
+S01309,Q01,산업,불산 누출,포항시,domestic
+S01310,Q26,비CBRN,폭발물 협박,서울시,domestic
+S01312,Q29,비CBRN,공항 폭발물 신고,제주시,domestic
+S01313,Q19,안보,노비촉,베를린,foreign_by_text
+S01317,Q07,산업,톨루엔 누출,여수시,domestic
+S01321,Q29,비CBRN,공항 폭발물 신고,메노르카,foreign_by_text
+S01322,Q25,비CBRN,차량 돌진 테러,리버풀,unknown
+S01323,Q25,비CBRN,차량 돌진 테러,마그데부르크,foreign_by_text
+S01325,Q25,비CBRN,차량 돌진 테러,베를린,foreign_by_text
+S01346,Q04,산업,황산 유출 사고,포항시 북구 흥해읍,domestic
+S01353,Q24,비CBRN,총기 난사,텍사스주 앨런,foreign_by_text
+S01354,Q09,산업,유독가스 누출 대피,대전 중구 복수동,domestic
+S01355,Q26,비CBRN,폭발물 협박,평창군,domestic
+S01356,Q05,산업,화학공장 폭발,여수시 화치동,domestic
+S01360,Q09,산업,유독가스 누출 대피,서천군,domestic
+S01361,Q05,산업,화학공장 폭발,화성시 서신면,domestic
+S01362,Q04,산업,황산 유출 사고,영광군,domestic
+S01363,Q14,안보,탄저균 테러,제주시 조천읍,domestic
+S01365,Q01,산업,불산 누출,청주시,domestic
+S01366,Q29,비CBRN,공항 폭발물 신고,울산시,domestic
+S01368,Q07,산업,톨루엔 누출,오산시 누읍동,domestic
+S01369,Q09,산업,유독가스 누출 대피,부산 사하구 신평동,domestic
+S01371,Q25,비CBRN,차량 돌진 테러,성남시 분당구,domestic
+S01372,Q24,비CBRN,총기 난사,베오그라드,unknown
+S01377,Q08,산업,질산 누출,안동시 임동면,domestic
+S01380,Q24,비CBRN,총기 난사,다게스탄 데르벤트,foreign
+S01383,Q07,산업,톨루엔 누출,오산시 누읍동,domestic
+S01388,Q21,비CBRN,폭발물 테러,서울시,domestic
+S01395,Q19,안보,노비촉,러시아 하르프,foreign
+S01398,Q22,비CBRN,사제폭탄,전주시,domestic
+S01404,Q05,산업,화학공장 폭발,여수시,domestic
+S01405,Q19,안보,노비촉,러시아 야말로네네츠,foreign
+S01407,Q09,산업,유독가스 누출 대피,김포시 하성면,domestic
+S01408,Q24,비CBRN,총기 난사,메인주,foreign_by_text
+S01410,Q24,비CBRN,총기 난사,미니애폴리스,foreign_by_text
+S01414,Q02,산업,암모니아 누출 사고,고령군 다산면,domestic
+S01416,Q26,비CBRN,폭발물 협박,서울 송파구,domestic
+S01418,Q04,산업,황산 유출 사고,창원시 마산,domestic
+S01423,Q25,비CBRN,차량 돌진 테러,베를린,foreign_by_text
+S01425,Q22,비CBRN,사제폭탄,광주 서구 치평동,domestic
+S01428,Q19,안보,노비촉,러시아,foreign
+S01429,Q05,산업,화학공장 폭발,산둥성 가오미시,domestic
+S01432,Q02,산업,암모니아 누출 사고,김포시 하성면,domestic
+S01439,Q02,산업,암모니아 누출 사고,울산 남구 야음동,domestic
+S01442,Q04,산업,황산 유출 사고,포항시 북구 흥해읍,domestic
+S01444,Q08,산업,질산 누출,안동시 임동면,domestic
+S01445,Q16,안보,방사능 유출,후쿠시마현,foreign
+S01456,Q08,산업,질산 누출,완주군 봉동읍,domestic
+S01457,Q02,산업,암모니아 누출 사고,군산시,domestic
+S01460,Q02,산업,암모니아 누출 사고,서울 영등포구,domestic
+S01461,Q03,산업,염소 가스 누출,화성시 서신면,domestic
+S01467,Q21,비CBRN,폭발물 테러,러시아 모스크바,foreign
+S01473,Q27,비CBRN,테러 예고 글,서울 강동구,domestic
+S01474,Q08,산업,질산 누출,수원시 장안구,domestic
+S01475,Q21,비CBRN,폭발물 테러,발트해,foreign_by_text
+S01479,Q24,비CBRN,총기 난사,팔레스타인 서안지구,foreign
+S01483,Q08,산업,질산 누출,포항시,domestic
+S01484,Q23,비CBRN,드론 공격,이라크 시리아,foreign
+S01485,Q22,비CBRN,사제폭탄,전주시,domestic
+S01489,Q23,비CBRN,드론 공격,페르시아만,foreign_by_text
+S01491,Q05,산업,화학공장 폭발,화성시 서신면,domestic
+S01492,Q16,안보,방사능 유출,이란,foreign
+S01494,Q03,산업,염소 가스 누출,인천 서구 백석동,domestic
+S01501,Q04,산업,황산 유출 사고,포항시 북구 흥해읍,domestic
+S01503,Q08,산업,질산 누출,안동시 임동면,domestic
+S01510,Q25,비CBRN,차량 돌진 테러,미국 뉴올리언스,foreign
+S01511,Q15,안보,북한 핵실험,제주시,domestic
+S01512,Q20,안보,북한 생화학무기,서울,domestic
+S01514,Q27,비CBRN,테러 예고 글,김해공항,unknown
+S01517,Q05,산업,화학공장 폭발,화성시 서신면,domestic
+S01519,Q08,산업,질산 누출,포항시,domestic
+S01520,Q05,산업,화학공장 폭발,중국 랴오닝,foreign
+S01522,Q21,비CBRN,폭발물 테러,파키스탄 발루치스탄,foreign
+S01530,Q24,비CBRN,총기 난사,미국 노퍽,foreign
+S01531,Q29,비CBRN,공항 폭발물 신고,인천국제공항,domestic
+S01532,Q22,비CBRN,사제폭탄,춘천시,domestic
+S01535,Q07,산업,톨루엔 누출,울주군 온산읍,domestic
+S01536,Q27,비CBRN,테러 예고 글,대구국제공항,domestic
+S01539,Q14,안보,탄저균 테러,제주시 오라동,domestic
+S01541,Q26,비CBRN,폭발물 협박,인천 강화군,domestic
+S01543,Q21,비CBRN,폭발물 테러,러시아 모스크바,foreign
+S01544,Q26,비CBRN,폭발물 협박,서울 역삼동,domestic
+S01545,Q09,산업,유독가스 누출 대피,부산 사상구 학장동,domestic
+S01551,Q26,비CBRN,폭발물 협박,서울 중구,domestic
+S01553,Q27,비CBRN,테러 예고 글,서울,domestic
+S01555,Q04,산업,황산 유출 사고,서울 성동구,domestic
+S01558,Q08,산업,질산 누출,포항시,domestic
+S01560,Q07,산업,톨루엔 누출,여수시,domestic
+S01567,Q24,비CBRN,총기 난사,멕시코,foreign
+S01568,Q21,비CBRN,폭발물 테러,경기도,domestic
+S01573,Q03,산업,염소 가스 누출,의정부시 가능동,domestic
+S01574,Q16,안보,방사능 유출,이란 포르도,foreign
+S01575,Q08,산업,질산 누출,안동시 임동면,domestic
+S01581,Q04,산업,황산 유출 사고,봉화군 석포면,domestic
+S01583,Q21,비CBRN,폭발물 테러,하남시,domestic
+S01585,Q24,비CBRN,총기 난사,미국 루이스턴,foreign
+S01588,Q01,산업,불산 누출,화성시 서신면,domestic
+S01596,Q26,비CBRN,폭발물 협박,경기 광주시,domestic
+S01601,Q07,산업,톨루엔 누출,여수시,domestic
+S01602,Q04,산업,황산 유출 사고,포항시 북구 흥해읍,domestic
+S01606,Q04,산업,황산 유출 사고,여수시,domestic
+S01611,Q27,비CBRN,테러 예고 글,서울 강남역,domestic
+S01612,Q02,산업,암모니아 누출 사고,부산 사하구 장림동,domestic
+S01617,Q25,비CBRN,차량 돌진 테러,독일 바이에른,foreign
+S01620,Q08,산업,질산 누출,공주시 검상동,domestic
+S01623,Q11,안보,화학무기 사용,우크라이나 마리우폴,foreign
+S01630,Q08,산업,질산 누출,포항시,domestic
+S01632,Q02,산업,암모니아 누출 사고,미국 일리노이주,foreign
+S01636,Q07,산업,톨루엔 누출,울주군 온산읍,domestic
+S01637,Q22,비CBRN,사제폭탄,온라인,unknown
+S01639,Q27,비CBRN,테러 예고 글,김해공항,unknown
+S01640,Q29,비CBRN,공항 폭발물 신고,전국,domestic
+S01642,Q27,비CBRN,테러 예고 글,광주시,domestic
+S01644,Q08,산업,질산 누출,포항시,domestic
+S01646,Q02,산업,암모니아 누출 사고,오산시 부산동,domestic
+S01647,Q07,산업,톨루엔 누출,오산시 누읍동,domestic
+S01662,Q21,비CBRN,폭발물 테러,서울,domestic
+S01665,Q25,비CBRN,차량 돌진 테러,미국 뉴올리언스,foreign
+S01666,Q27,비CBRN,테러 예고 글,서울 강동구,domestic
+S01667,Q04,산업,황산 유출 사고,여수시,domestic
+S01668,Q23,비CBRN,드론 공격,우크라이나 키이우,foreign
+S01669,Q08,산업,질산 누출,제주시 영평동,domestic
+S01671,Q25,비CBRN,차량 돌진 테러,미국 뉴올리언스,foreign
+S01681,Q21,비CBRN,폭발물 테러,러시아 모스크바,foreign
+S01682,Q27,비CBRN,테러 예고 글,인천 연수구,domestic
+S01685,Q08,산업,질산 누출,포항시,domestic
+S01689,Q08,산업,질산 누출,포항시,domestic
+S01696,Q04,산업,황산 유출 사고,포항시 북구 흥해읍,domestic
+S01697,Q24,비CBRN,총기 난사,미국 미니애폴리스,foreign
+S01698,Q08,산업,질산 누출,군산시 소룡동,domestic
+S01699,Q24,비CBRN,총기 난사,미국 로스앤젤레스,foreign
+S01700,Q11,안보,화학무기 사용,우크라이나 포파스나,foreign
+S01709,Q19,안보,노비촉,러시아,foreign
+S01711,Q27,비CBRN,테러 예고 글,서울,domestic
+S01715,Q29,비CBRN,공항 폭발물 신고,서울,domestic
+S01721,Q20,안보,북한 생화학무기,경기도,domestic
+S01723,Q09,산업,유독가스 누출 대피,인천 미추홀구 도화동,domestic
+S01726,Q23,비CBRN,드론 공격,러시아 벨고로드주,foreign
+S01728,Q16,안보,방사능 유출,우크라이나 체르노빌,foreign
+S01730,Q29,비CBRN,공항 폭발물 신고,인천국제공항,domestic
+S01731,Q03,산업,염소 가스 누출,의정부시 가능동,domestic
+S01732,Q09,산업,유독가스 누출 대피,청주시,domestic
+S01735,Q01,산업,불산 누출,군산시,domestic
+S01737,Q27,비CBRN,테러 예고 글,서울 잠실,domestic
+S01746,Q25,비CBRN,차량 돌진 테러,텔아비브,foreign
+S01748,Q08,산업,질산 누출,제주시 한림읍,domestic
+S01752,Q02,산업,암모니아 누출 사고,오산시 부산동,domestic
+S01758,Q04,산업,황산 유출 사고,대구시 서구 비산동,domestic
+S01759,Q26,비CBRN,폭발물 협박,성남시 분당구,domestic
+S01761,Q17,안보,더티밤,이란 나탄즈,foreign
+S01762,Q01,산업,불산 누출,군산시,domestic
+S01764,Q02,산업,암모니아 누출 사고,군산시 서수면,domestic
+S01770,Q02,산업,암모니아 누출 사고,서울 영등포구,domestic
+S01771,Q05,산업,화학공장 폭발,여수시 화치동,domestic
+S01772,Q04,산업,황산 유출 사고,서울 성동구 행당동,domestic
+S01773,Q05,산업,화학공장 폭발,울산 남구,domestic
+S01777,Q25,비CBRN,차량 돌진 테러,미국,foreign
+S01778,Q07,산업,톨루엔 누출,울산 울주군 온산읍,domestic
+S01783,Q06,산업,유해화학물질 유출,평택시 청북읍,domestic
+S01789,Q08,산업,질산 누출,포항시,domestic
+S01790,Q24,비CBRN,총기 난사,모스크바,foreign
+S01792,Q04,산업,황산 유출 사고,봉화군 석포면,domestic
+S01795,Q03,산업,염소 가스 누출,함평군,domestic
+S01796,Q27,비CBRN,테러 예고 글,,unknown
+S01801,Q09,산업,유독가스 누출 대피,,unknown
+S01809,Q09,산업,유독가스 누출 대피,화성시 서신면,domestic
+S01811,Q26,비CBRN,폭발물 협박,광명시,domestic
+S01813,Q01,산업,불산 누출,화성시,domestic
+S01816,Q26,비CBRN,폭발물 협박,인천시,domestic
+S01832,Q16,안보,방사능 유출,일본 미야기현,foreign
+S01837,Q21,비CBRN,폭발물 테러,,foreign_by_text
+S01839,Q08,산업,질산 누출,포항시,domestic
+S01840,Q07,산업,톨루엔 누출,대구시 서구,domestic
+S01842,Q21,비CBRN,폭발물 테러,러시아 사할린주,foreign
+S01843,Q05,산업,화학공장 폭발,화성시 서신면,domestic
+S01847,Q04,산업,황산 유출 사고,창원시 마산회원구,domestic
+S01849,Q12,안보,사린가스 공격,프랑스 파리,foreign
+S01852,Q05,산업,화학공장 폭발,화성시 서신면,domestic
+S01855,Q25,비CBRN,차량 돌진 테러,성남시 분당구,domestic
+S01856,Q11,안보,화학무기 사용,모스크바,foreign
+S01858,Q08,산업,질산 누출,제주시 영평동,domestic
+S01863,Q29,비CBRN,공항 폭발물 신고,광주 광산구,domestic
+S01866,Q24,비CBRN,총기 난사,모스크바,foreign
+S01867,Q26,비CBRN,폭발물 협박,미국 스프링필드,foreign
+S01869,Q04,산업,황산 유출 사고,서울 성동구 행당동,domestic
+S01871,Q29,비CBRN,공항 폭발물 신고,광주 광산구,domestic
+S01875,Q26,비CBRN,폭발물 협박,인천시,domestic
+S01880,Q26,비CBRN,폭발물 협박,,unknown
+S01881,Q27,비CBRN,테러 예고 글,서울시,domestic
+S01893,Q26,비CBRN,폭발물 협박,순천시,domestic
+S01894,Q08,산업,질산 누출,군산시 오식도동,domestic
+S01896,Q05,산업,화학공장 폭발,화성시 서신면,domestic
+S01901,Q09,산업,유독가스 누출 대피,봉화군 석포면,domestic
+S01904,Q19,안보,노비촉,러시아,foreign
+S01905,Q26,비CBRN,폭발물 협박,,unknown
+S01908,Q02,산업,암모니아 누출 사고,군산시 서수면,domestic
+S01910,Q05,산업,화학공장 폭발,방글라데시,domestic
+S01923,Q05,산업,화학공장 폭발,여수시,domestic
+S01925,Q27,비CBRN,테러 예고 글,서울 강동구,domestic
+S01928,Q09,산업,유독가스 누출 대피,영천시,domestic
+S01938,Q07,산업,톨루엔 누출,울산 남구 매암동,domestic
+S01940,Q11,안보,화학무기 사용,우크라이나-벨라루스 국경,foreign
+S01942,Q23,비CBRN,드론 공격,홍해,foreign_by_text
+S01943,Q08,산업,질산 누출,천안시 동남구 성남면,domestic
+S01945,Q10,산업,화학사고 대응,정읍시,domestic
+S01948,Q21,비CBRN,폭발물 테러,레바논,foreign
+S01954,Q19,안보,노비촉,러시아,foreign
+S01955,Q27,비CBRN,테러 예고 글,,unknown
+S01956,Q25,비CBRN,차량 돌진 테러,영국 맨체스터,foreign
+S01958,Q24,비CBRN,총기 난사,미국 텍사스주 유밸디,foreign
+S01959,Q02,산업,암모니아 누출 사고,김포시 하성면,domestic
+S01960,Q22,비CBRN,사제폭탄,모스크바 외곽,foreign
+S01964,Q23,비CBRN,드론 공격,우크라이나 키이우,foreign
+S01973,Q22,비CBRN,사제폭탄,광주 서구 치평동,domestic
+S01974,Q08,산업,질산 누출,포항시,domestic
+S01984,Q22,비CBRN,사제폭탄,,foreign_by_text
+S01985,Q16,안보,방사능 유출,우크라이나 체르노빌,foreign
+S01986,Q09,산업,유독가스 누출 대피,요르단 아카바항,foreign
+S01987,Q26,비CBRN,폭발물 협박,성남시 분당구,domestic
+S01989,Q27,비CBRN,테러 예고 글,,unknown
+S01995,Q26,비CBRN,폭발물 협박,파주시,domestic
+S01998,Q13,안보,생물테러,함안군 칠원읍,domestic
+S01999,Q08,산업,질산 누출,제주시 한림읍,domestic
+S02002,Q26,비CBRN,폭발물 협박,서울시,domestic
+S02004,Q07,산업,톨루엔 누출,화성시 서신면,domestic
+S02005,Q25,비CBRN,차량 돌진 테러,폴란드 루블린,foreign
+S02006,Q07,산업,톨루엔 누출,화성시 향남읍,domestic
+S02008,Q07,산업,톨루엔 누출,화성시 향남읍,domestic
+S02010,Q04,산업,황산 유출 사고,정읍시,domestic
+S02013,Q22,비CBRN,사제폭탄,군포시 산본동,domestic
+S02015,Q09,산업,유독가스 누출 대피,미국 캘리포니아 가든그로브,foreign
+S02018,Q19,안보,노비촉,러시아 야말로네네츠,foreign
+S02025,Q08,산업,질산 누출,안동시 임동면,domestic
+S02030,Q01,산업,불산 누출,포항시,domestic
+S02046,Q01,산업,불산 누출,군산시 소룡동,domestic
+S02047,Q08,산업,질산 누출,수원시 장안구,domestic
+S02054,Q11,안보,화학무기 사용,우크라이나 루한스크주 포파스나시,foreign
+S02057,Q26,비CBRN,폭발물 협박,서울 영등포구,domestic
+S02060,Q08,산업,질산 누출,포항시 남구,domestic
+S02062,Q24,비CBRN,총기 난사,태국 농부아람푸주,foreign
+S02067,Q26,비CBRN,폭발물 협박,서울 중구,domestic
+S02070,Q19,안보,노비촉,우크라이나,foreign
+S02074,Q17,안보,더티밤,러시아 모스크바,foreign
+S02083,Q07,산업,톨루엔 누출,여수시 화치동,domestic
+S02085,Q03,산업,염소 가스 누출,의정부시 가능동,domestic
+S02086,Q04,산업,황산 유출 사고,대구 달성군 논공읍,domestic
+S02089,Q01,산업,불산 누출,포항시 남구,domestic
+S02099,Q02,산업,암모니아 누출 사고,울산 남구 야음동,domestic
+S02103,Q02,산업,암모니아 누출 사고,오산시 부산동,domestic
+S02104,Q07,산업,톨루엔 누출,울주군 온산읍,domestic
+S02105,Q05,산업,화학공장 폭발,여수시 화치동,domestic
+S02108,Q27,비CBRN,테러 예고 글,서울,domestic
+S02110,Q04,산업,황산 유출 사고,창원시,domestic
+S02112,Q05,산업,화학공장 폭발,화성시 서신면,domestic
+S02113,Q01,산업,불산 누출,인천 동구,domestic
+S02120,Q01,산업,불산 누출,대전 유성구,domestic
+S02124,Q03,산업,염소 가스 누출,인천 미추홀구 도화동,domestic
+S02127,Q19,안보,노비촉,우크라이나 키이우,foreign
+S02128,Q02,산업,암모니아 누출 사고,서울 영등포구 양평동,domestic
+S02129,Q29,비CBRN,공항 폭발물 신고,인천국제공항,domestic
+S02130,Q27,비CBRN,테러 예고 글,대구,domestic
+S02132,Q16,안보,방사능 유출,우크라이나 에네르호다르,foreign
+S02133,Q04,산업,황산 유출 사고,제천시 명지동,domestic
+S02135,Q27,비CBRN,테러 예고 글,제주시,domestic
+S02136,Q23,비CBRN,드론 공격,러시아,foreign
+S02137,Q21,비CBRN,폭발물 테러,서울 구로구,domestic
+S02139,Q23,비CBRN,드론 공격,호르무즈 해협,foreign_by_text
+S02140,Q08,산업,질산 누출,군산시,domestic
+S02143,Q26,비CBRN,폭발물 협박,인천 서구,domestic
+S02144,Q24,비CBRN,총기 난사,미국 배턴루즈,foreign
+S02148,Q26,비CBRN,폭발물 협박,서울,domestic
+S02150,Q11,안보,화학무기 사용,미국 미시간,foreign
+S02153,Q05,산업,화학공장 폭발,화성시 서신면,domestic
+S02155,Q29,비CBRN,공항 폭발물 신고,인천국제공항,domestic
+S02157,Q24,비CBRN,총기 난사,태국 방콕,foreign
+S02159,Q29,비CBRN,공항 폭발물 신고,인천국제공항,domestic
+S02163,Q03,산업,염소 가스 누출,남양주시 진건읍,domestic
+S02164,Q25,비CBRN,차량 돌진 테러,중국 베이징,foreign
+S02165,Q14,안보,탄저균 테러,미국,foreign
+S02170,Q09,산업,유독가스 누출 대피,청주시,domestic
+S02173,Q09,산업,유독가스 누출 대피,서천군 서천읍,domestic
+S02177,Q01,산업,불산 누출,포항시 남구,domestic
+S02178,Q26,비CBRN,폭발물 협박,수원시 권선구,domestic
+S02180,Q04,산업,황산 유출 사고,봉화군 석포면,domestic
+S02182,Q07,산업,톨루엔 누출,울주군 온산읍,domestic
+S02184,Q24,비CBRN,총기 난사,미국 오클라호마 털사,foreign
+S02196,Q21,비CBRN,폭발물 테러,인도 스리나가르,foreign
+S02199,Q25,비CBRN,차량 돌진 테러,독일 뮌헨,foreign
+S02202,Q27,비CBRN,테러 예고 글,,unknown
+S02204,Q05,산업,화학공장 폭발,여수시 화치동,domestic
+S02205,Q01,산업,불산 누출,포항시 남구,domestic
+S02207,Q09,산업,유독가스 누출 대피,서천군 서천읍,domestic
+S02211,Q04,산업,황산 유출 사고,제주시 용담동,domestic
+S02215,Q07,산업,톨루엔 누출,대구 서구,domestic
+S02221,Q29,비CBRN,공항 폭발물 신고,광주광역시,domestic
+S02230,Q25,비CBRN,차량 돌진 테러,미국 라스베이거스,foreign
+S02232,Q04,산업,황산 유출 사고,대구 서구 비산동,domestic
+S02236,Q29,비CBRN,공항 폭발물 신고,프랑스 베르사유,foreign
+S02238,Q25,비CBRN,차량 돌진 테러,파키스탄 카이베르파크툰크와주,foreign
+S02241,Q29,비CBRN,공항 폭발물 신고,미국 포트로더데일,foreign
+S02242,Q05,산업,화학공장 폭발,여수시 화치동,domestic
+S02249,Q27,비CBRN,테러 예고 글,,unknown
+S02253,Q09,산업,유독가스 누출 대피,인천 미추홀구 도화동,domestic
+S02254,Q17,안보,더티밤,우크라이나 자포리자,foreign
+S02262,Q26,비CBRN,폭발물 협박,청주시,domestic
+S02263,Q08,산업,질산 누출,군산시 소룡동,domestic
+S02269,Q18,안보,백색가루 신고,대구 수성구,domestic
+S02281,Q09,산업,유독가스 누출 대피,화성시,domestic
+S02284,Q25,비CBRN,차량 돌진 테러,영국 런던,foreign
+S02285,Q09,산업,유독가스 누출 대피,서천군 서천읍,domestic
+S02286,Q03,산업,염소 가스 누출,순천시 덕암동,domestic
+S02288,Q21,비CBRN,폭발물 테러,이라크 바스라,foreign
+S02291,Q21,비CBRN,폭발물 테러,수원시 영통구,domestic
+S02292,Q22,비CBRN,사제폭탄,필리핀 타쿠롱시,foreign
+S02295,Q03,산업,염소 가스 누출,의정부시 가능동,domestic
+S02299,Q23,비CBRN,드론 공격,이란 테헤란,foreign
+S02300,Q09,산업,유독가스 누출 대피,청주시,domestic
+S02301,Q01,산업,불산 누출,포항시 남구,domestic
+S02306,Q29,비CBRN,공항 폭발물 신고,인천국제공항,domestic
+S02309,Q25,비CBRN,차량 돌진 테러,독일 마그데부르크,foreign
+S02312,Q02,산업,암모니아 누출 사고,부산 서구,domestic
+S02313,Q03,산업,염소 가스 누출,의정부시 가능동,domestic
+S02314,Q16,안보,방사능 유출,우크라이나 체르노빌,foreign
+S02316,Q26,비CBRN,폭발물 협박,서울 중구,domestic
+S02318,Q29,비CBRN,공항 폭발물 신고,광주광역시,domestic
+S02327,Q01,산업,불산 누출,포항시,domestic
+S02328,Q29,비CBRN,공항 폭발물 신고,대구시,domestic
+S02334,Q04,산업,황산 유출 사고,대구 서구,domestic
+S02337,Q24,비CBRN,총기 난사,미국 버펄로,foreign
+S02338,Q03,산업,염소 가스 누출,서울 성동구,domestic
+S02339,Q18,안보,백색가루 신고,대구 수성구,domestic
+S02341,Q26,비CBRN,폭발물 협박,서울시,domestic
+S02343,Q09,산업,유독가스 누출 대피,여수시,domestic
+S02345,Q26,비CBRN,폭발물 협박,인천시,domestic
+S02356,Q27,비CBRN,테러 예고 글,,unknown
+S02359,Q28,비CBRN,다중이용시설 테러,서울시,domestic
+S02360,Q08,산업,질산 누출,군산시,domestic
+S02362,Q25,비CBRN,차량 돌진 테러,영국 리버풀,foreign
+S02363,Q04,산업,황산 유출 사고,단양군 매포읍,domestic
+S02365,Q21,비CBRN,폭발물 테러,전국,domestic
+S02368,Q04,산업,황산 유출 사고,대구 달성군,domestic
+S02369,Q05,산업,화학공장 폭발,여수시,domestic
+S02389,Q25,비CBRN,차량 돌진 테러,독일 베를린,foreign
+S02393,Q25,비CBRN,차량 돌진 테러,독일 마그데부르크,foreign
+S02395,Q24,비CBRN,총기 난사,호주 시드니,foreign
+S02396,Q04,산업,황산 유출 사고,정읍시 북면,domestic
+S02398,Q24,비CBRN,총기 난사,요르단강 서안,foreign
+S02400,Q15,안보,북한 핵실험,북한,foreign
+S02401,Q08,산업,질산 누출,경기도,domestic
+S02412,Q26,비CBRN,폭발물 협박,성남시,domestic
+S02416,Q08,산업,질산 누출,수원시,domestic
+S02419,Q01,산업,불산 누출,화성시,domestic
+S02420,Q26,비CBRN,폭발물 협박,성남시,domestic
+S02421,Q04,산업,황산 유출 사고,여수시,domestic
+S02422,Q02,산업,암모니아 누출 사고,서울 영등포구,domestic
+S02423,Q24,비CBRN,총기 난사,호주 시드니,foreign
+S02426,Q21,비CBRN,폭발물 테러,울산시,domestic
+S02429,Q07,산업,톨루엔 누출,여수시,domestic
+S02434,Q26,비CBRN,폭발물 협박,서울 영등포구,domestic
+S02437,Q08,산업,질산 누출,군산시,domestic
+S02438,Q09,산업,유독가스 누출 대피,청주시,domestic
+S02443,Q25,비CBRN,차량 돌진 테러,파키스탄 카이버파크툰크와주,foreign
+S02447,Q26,비CBRN,폭발물 협박,서울 영등포구,domestic
+S02449,Q27,비CBRN,테러 예고 글,성남시,domestic
+S02450,Q27,비CBRN,테러 예고 글,서울 영등포구,domestic
+S02455,Q25,비CBRN,차량 돌진 테러,이스라엘 예루살렘,foreign
+S02460,Q05,산업,화학공장 폭발,중국 랴오닝,foreign
+S02462,Q21,비CBRN,폭발물 테러,레바논,foreign
+S02468,Q15,안보,북한 핵실험,북한,foreign
+S02476,Q27,비CBRN,테러 예고 글,서울 영등포구,domestic
+S02481,Q01,산업,불산 누출,대전시,domestic
+S02482,Q18,안보,백색가루 신고,부산 해운대구,domestic
+S02483,Q26,비CBRN,폭발물 협박,서울 송파구,domestic
+S02485,Q08,산업,질산 누출,제주시 영평동,domestic
+S02486,Q03,산업,염소 가스 누출,군산시,domestic
+S02487,Q01,산업,불산 누출,포항시,domestic
+S02495,Q27,비CBRN,테러 예고 글,부산 동래구,domestic
+S02498,Q24,비CBRN,총기 난사,호주 시드니,foreign
+S02500,Q23,비CBRN,드론 공격,중동,domestic
+S02501,Q15,안보,북한 핵실험,북한,foreign
+S02502,Q27,비CBRN,테러 예고 글,서울 용산구,domestic
+S02503,Q27,비CBRN,테러 예고 글,서울시,domestic
+S02504,Q03,산업,염소 가스 누출,군산시,domestic
+S02505,Q08,산업,질산 누출,안동시 임동면,domestic
+S02506,Q05,산업,화학공장 폭발,군산시 소룡동,domestic
+S02508,Q09,산업,유독가스 누출 대피,화성시 향남읍,domestic
+S02509,Q06,산업,유해화학물질 유출,창원시,domestic
+S02513,Q19,안보,노비촉,러시아,foreign
+S02518,Q24,비CBRN,총기 난사,캐나다 브리티시컬럼비아주,foreign
+S02522,Q25,비CBRN,차량 돌진 테러,미국 뉴올리언스,foreign
+S02524,Q29,비CBRN,공항 폭발물 신고,인천시,domestic
+S02527,Q28,비CBRN,다중이용시설 테러,부산시,domestic
+S02528,Q16,안보,방사능 유출,UAE 아부다비,foreign
+S02534,Q05,산업,화학공장 폭발,인도 안드라프라데시주,foreign
+S02537,Q26,비CBRN,폭발물 협박,성남시,domestic
+S02539,Q01,산업,불산 누출,화성시,domestic
+S02546,Q08,산업,질산 누출,군산시,domestic
+S02548,Q09,산업,유독가스 누출 대피,청주시,domestic
+S02551,Q16,안보,방사능 유출,,unknown
+S02553,Q08,산업,질산 누출,완주군 봉동읍,domestic
+S02555,Q25,비CBRN,차량 돌진 테러,이스라엘 텔아비브,foreign
+S02556,Q24,비CBRN,총기 난사,체코 프라하,unknown
+S02560,Q02,산업,암모니아 누출 사고,함안군 칠서면,domestic
+S02561,Q01,산업,불산 누출,,unknown
+S02562,Q12,안보,사린가스 공격,일본 도쿄,foreign
+S02569,Q11,안보,화학무기 사용,우크라이나,foreign
+S02573,Q26,비CBRN,폭발물 협박,서울시,domestic
+S02576,Q04,산업,황산 유출 사고,창원시 의창구,domestic
+S02578,Q25,비CBRN,차량 돌진 테러,미국 라스베이거스,foreign
+S02579,Q08,산업,질산 누출,수원시,domestic
+S02581,Q09,산업,유독가스 누출 대피,대전 유성구,domestic
+S02583,Q03,산업,염소 가스 누출,함평군,domestic
+S02585,Q02,산업,암모니아 누출 사고,울산 남구,domestic
+S02586,Q07,산업,톨루엔 누출,오산시 누읍동,domestic
+S02587,Q27,비CBRN,테러 예고 글,서울 용산구,domestic
+S02589,Q08,산업,질산 누출,안동시 임동면,domestic
+S02592,Q21,비CBRN,폭발물 테러,전국,domestic
+S02595,Q04,산업,황산 유출 사고,포항시 북구 흥해읍,domestic
+S02596,Q09,산업,유독가스 누출 대피,전주시 덕진구,domestic
+S02597,Q25,비CBRN,차량 돌진 테러,미국 뉴저지주,foreign
+S02598,Q21,비CBRN,폭발물 테러,러시아 칼리닌그라드,foreign
+S02599,Q18,안보,백색가루 신고,대구 수성구,domestic
+S02600,Q07,산업,톨루엔 누출,오산시 누읍동,domestic
+S02602,Q16,안보,방사능 유출,이란 부셰르,foreign
+S02604,Q21,비CBRN,폭발물 테러,미국 캘리포니아주,foreign
+S02606,Q19,안보,노비촉,,foreign_by_text
+S02612,Q28,비CBRN,다중이용시설 테러,김해시,domestic
+S02614,Q29,비CBRN,공항 폭발물 신고,인천시,domestic
+S02617,Q04,산업,황산 유출 사고,영광군,domestic
+S02629,Q04,산업,황산 유출 사고,대구 서구,domestic
+S02630,Q24,비CBRN,총기 난사,미국 텍사스주,foreign
+S02636,Q05,산업,화학공장 폭발,여수시,domestic
+S02637,Q01,산업,불산 누출,아산시 인주면,domestic
+S02639,Q26,비CBRN,폭발물 협박,서울시,domestic
+S02640,Q08,산업,질산 누출,제주시 한림읍,domestic
+S02645,Q07,산업,톨루엔 누출,울주군 온산읍,domestic
+S02646,Q22,비CBRN,사제폭탄,,unknown
+S02650,Q04,산업,황산 유출 사고,대구 서구,domestic
+S02653,Q16,안보,방사능 유출,우크라이나 자포리자,foreign
+S02654,Q27,비CBRN,테러 예고 글,서울시,domestic
+S02655,Q08,산업,질산 누출,포항시 남구,domestic
+S02657,Q21,비CBRN,폭발물 테러,러시아 크림대교,foreign
+S02662,Q05,산업,화학공장 폭발,영천시 금호읍,domestic
+S02663,Q27,비CBRN,테러 예고 글,제주시,domestic
+S02664,Q01,산업,불산 누출,군산시,domestic
+S02665,Q19,안보,노비촉,,foreign_by_text
+S02668,Q26,비CBRN,폭발물 협박,수원시 영통구,domestic
+S02673,Q02,산업,암모니아 누출 사고,부천시 도당동,domestic
+S02674,Q02,산업,암모니아 누출 사고,부산 사하구,domestic
+S02678,Q02,산업,암모니아 누출 사고,서울 영등포구,domestic
+S02683,Q23,비CBRN,드론 공격,요르단,foreign
+S02684,Q25,비CBRN,차량 돌진 테러,미국 뉴올리언스,foreign
+S02693,Q01,산업,불산 누출,인천시,domestic
+S02706,Q09,산업,유독가스 누출 대피,화성시,domestic
+S02712,Q04,산업,황산 유출 사고,창원시 의창구,domestic
+S02722,Q01,산업,불산 누출,포항시 남구,domestic
+S02723,Q24,비CBRN,총기 난사,미국 워싱턴주 야키마,foreign
+S02724,Q04,산업,황산 유출 사고,,unknown
+S02736,Q08,산업,질산 누출,포항시 남구,domestic
+S02737,Q07,산업,톨루엔 누출,여수시,domestic
+S02741,Q07,산업,톨루엔 누출,울주군 온산읍,domestic
+S02742,Q21,비CBRN,폭발물 테러,대구시,domestic
+S02744,Q04,산업,황산 유출 사고,포항시 북구 흥해읍,domestic
+S02745,Q05,산업,화학공장 폭발,여수시 화치동,domestic
+S02750,Q05,산업,화학공장 폭발,화성시 서신면,domestic
+S02752,Q01,산업,불산 누출,포항시 남구,domestic
+S02753,Q16,안보,방사능 유출,이란 부셰르,foreign
+S02756,Q23,비CBRN,드론 공격,우크라이나,foreign
+S02760,Q01,산업,불산 누출,군산시,domestic
+S02762,Q29,비CBRN,공항 폭발물 신고,인천시,domestic
+S02763,Q04,산업,황산 유출 사고,대구 달성군 논공읍,domestic
+S02764,Q21,비CBRN,폭발물 테러,러시아 상트페테르부르크,foreign
+S02765,Q18,안보,백색가루 신고,미국 필라델피아,foreign
+S02771,Q16,안보,방사능 유출,우크라이나 자포리자,foreign
+S02774,Q09,산업,유독가스 누출 대피,청주시,domestic
+S02775,Q17,안보,더티밤,이란 나탄즈,foreign
+S02778,Q16,안보,방사능 유출,프랑스 지롱드,foreign
+S02781,Q29,비CBRN,공항 폭발물 신고,광주시,domestic
+S02786,Q24,비CBRN,총기 난사,미국 필라델피아,foreign
+S02788,Q09,산업,유독가스 누출 대피,수원시,domestic
+S02789,Q19,안보,노비촉,러시아,foreign
+S02791,Q07,산업,톨루엔 누출,여수시,domestic
+S02795,Q06,산업,유해화학물질 유출,봉화군 석포면,domestic
+S02798,Q22,비CBRN,사제폭탄,러시아 모스크바,foreign
+S02799,Q21,비CBRN,폭발물 테러,레바논 베이루트,foreign
+S02801,Q22,비CBRN,사제폭탄,,unknown
+S02803,Q26,비CBRN,폭발물 협박,인천시,domestic
+S02804,Q02,산업,암모니아 누출 사고,부산 사하구,domestic
+S02807,Q26,비CBRN,폭발물 협박,,unknown
+S02811,Q21,비CBRN,폭발물 테러,호주 시드니,foreign
+S02819,Q05,산업,화학공장 폭발,화성시 서신면,domestic
+S02823,Q22,비CBRN,사제폭탄,,unknown
+S02826,Q29,비CBRN,공항 폭발물 신고,대구시,domestic
+S02828,Q19,안보,노비촉,러시아 야말로네네츠,foreign
+S02829,Q02,산업,암모니아 누출 사고,서울 영등포구,domestic
+S02831,Q25,비CBRN,차량 돌진 테러,독일,foreign
+S02837,Q26,비CBRN,폭발물 협박,서울시,domestic
+S02859,Q05,산업,화학공장 폭발,여수시 화치동,domestic
+S02860,Q23,비CBRN,드론 공격,이스라엘,foreign
+S02862,Q24,비CBRN,총기 난사,태국 농부아람푸주,foreign

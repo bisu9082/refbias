@@ -1,0 +1,30 @@
+\begin{table}[t]\centering\caption{Component decomposition of news volume and amplification factor (gold set, $n=2{,}867$; 95\% CI by 10{,}000 bootstrap resamples of $p_E$).}\label{tab:components}
+\begin{tabular}{lrrrrrrrr}\toprule
+Block & $n$ & EVENT (\%) & REF (\%) & INST (\%) & OTHER (\%) & IRREL. (\%) & $m$ & $A$ [95\% CI] \\\midrule
+Conventional terror & 1,000 & 40.9 & 3.8 & 23.1 & 17.7 & 14.5 & 1.19 & 2.90 [2.70, 3.13] \\
+Industrial & 967 & 43.2 & 2.2 & 34.5 & 10.9 & 9.2 & 1.75 & 4.05 [3.78, 4.36] \\
+Security (CBRN) & 900 & 10.6 & 2.7 & 25.9 & 35.3 & 25.6 & 1.12 & 10.59 [8.82, 13.06] \\
+All & 2,867 & 32.2 & 2.9 & 27.8 & 20.9 & 16.2 & 1.38 & 4.29 [4.08, 4.54] \\
+\bottomrule\end{tabular}\end{table}
+
+\begin{table}[t]\centering\caption{Classifier performance, 10 seeds $\times$ stratified 5-fold CV (mean $\pm$ SD). Proposed: character $n$-gram (2--4) TF-IDF + class-weighted logistic regression.}\label{tab:models}
+\begin{tabular}{lccc}\toprule
+Model & Accuracy & Macro-F1 & EVENT-F1 \\\midrule
+Majority class & 0.322 $\pm$ 0.001 & 0.097 $\pm$ 0.000 & 0.487 $\pm$ 0.001 \\
+Random ($1/K$) & 0.200 $\pm$ 0.016 & 0.182 $\pm$ 0.015 & 0.246 $\pm$ 0.032 \\
+Keyword rule (all query tokens $\Rightarrow$ EVENT) & 0.322 $\pm$ 0.015 & 0.173 $\pm$ 0.008 & 0.504 $\pm$ 0.025 \\
+Char $n$-gram, title only & 0.723 $\pm$ 0.019 & 0.648 $\pm$ 0.029 & 0.830 $\pm$ 0.018 \\
+Word $n$-gram (1--2), title+body & 0.745 $\pm$ 0.015 & 0.672 $\pm$ 0.026 & 0.854 $\pm$ 0.015 \\
+Char $n$-gram + BigKinds incident tag & 0.758 $\pm$ 0.016 & 0.700 $\pm$ 0.024 & 0.854 $\pm$ 0.015 \\
+\textbf{Char $n$-gram, title+body (proposed)} & 0.769 $\pm$ 0.015 & 0.714 $\pm$ 0.021 & 0.859 $\pm$ 0.015 \\
+\midrule\multicolumn{4}{l}{\footnotesize Proposed vs.\ keyword rule, EVENT-F1: paired $t$, $p=1.0e-56$, $d_z=13.12$, $\Delta=+0.355$ [0.348, 0.363]}\\
+\multicolumn{4}{l}{\footnotesize Adding the BigKinds incident tag \emph{lowers} macro-F1: $\Delta=-0.014$ [-0.018, -0.010], $p=3.2e-08$}\\
+\bottomrule\end{tabular}\end{table}
+
+\begin{table}[t]\centering\caption{Full-corpus decomposition ($V=109{,}610$) with Rogan--Gladen misclassification correction using block-wise TPR/FPR from cross-validation. Security-block estimates are unstable (TPR $=0.43$) and are reported for completeness only.}\label{tab:fullcorpus}
+\begin{tabular}{lrrrrrrr}\toprule
+Block & $V$ & TPR & FPR & $\hat p_E$ obs.\ (\%) & $\hat p_E$ corr.\ (\%) & $A$ obs. & $A$ corr. \\\midrule
+Conventional terror & 75,289 & 0.892 & 0.118 & 28.89 & 22.02 & 4.10 & 5.38 \\
+Industrial & 4,633 & 0.933 & 0.084 & 27.07 & 22.01 & 6.46 & 7.95 \\
+Security (CBRN) & 29,688 & 0.432 & 0.020 & 2.75 & 1.85 & 40.66 & 60.46 \\
+\bottomrule\end{tabular}\end{table}

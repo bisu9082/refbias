@@ -1,0 +1,191 @@
+% !TeX program = XeLaTeX
+%% 이 파일은 한글 데이터(지명·대상 표기)를 포함하므로 XeLaTeX 또는 LuaLaTeX 로 컴파일해야 한다.
+%% Overleaf: 좌측 Menu > Compiler > XeLaTeX 로 변경할 것.
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}\usepackage{booktabs}
+\usepackage{fontspec}
+%% 설치된 한글 글꼴을 순서대로 찾는다. 모두 없으면 라틴 글꼴로 떨어지고 한글만 깨진다.
+\IfFontExistsTF{Noto Serif CJK KR}{\setmainfont{Noto Serif CJK KR}}{%
+  \IfFontExistsTF{Noto Sans CJK KR}{\setmainfont{Noto Sans CJK KR}}{%
+    \IfFontExistsTF{NanumMyeongjo}{\setmainfont{NanumMyeongjo}}{%
+      \IfFontExistsTF{NanumBarunGothic}{\setmainfont{NanumBarunGothic}}{%
+        \IfFontExistsTF{UnBatang}{\setmainfont{UnBatang}}{}}}}}
+\begin{document}
+\begin{center}{\large\bfseries Supplementary material}\\[4pt]{\itshape How much of hazard news is news? Decomposing open-source coverage of chemical accidents and CBRN threats for disaster risk reduction}\end{center}
+\section*{S1. Domestic EVENT articles in the security block (gold set)}
+{\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llll}\toprule Query & Date & Coded place & Coded object \\\midrule
+White-powder report & 2022-04-27 & 인천 부평구 & 백색가루 \\
+White-powder report & 2022-06-12 & 대구 수성구 & 백색가루 \\
+White-powder report & 2022-06-12 & 대구 수성구 & 백색가루 \\
+White-powder report & 2022-06-13 & 대구 수성구 & 백색가루 \\
+White-powder report & 2022-07-04 & 대구 수성구 & 백색가루 \\
+Anthrax terror & 2022-09-28 & 제주시 조천읍 & 백색가루 우편물 \\
+Anthrax terror & 2022-09-28 & 제주시 조천읍 & 탄저균 의심 우편물 \\
+Anthrax terror & 2022-11-04 & 제주시 오라동 & 정체불명 우편물 \\
+Bioterrorism & 2023-07-21 & 함안군 칠원읍 & 생물테러 의심 소포 \\
+Anthrax terror & 2023-07-22 & 제주시 & 독극물 소포 \\
+Radiation leak & 2023-07-24 & 영광군 한빛원전 & 원전 자동정지 \\
+DPRK nuclear test & 2024-05-01 & 제주시 & 공중음파 \\
+Radiation leak & 2024-08-07 & 경주시 & 원전 비상발전기 작동 \\
+White-powder report & 2024-08-29 & 부산 해운대구 & 백색가루 우편물 \\
+DPRK bio-chem weapons & 2024-09-19 & 경기도 & 쓰레기풍선 \\
+DPRK bio-chem weapons & 2024-10-04 & 서울 & 오물풍선 \\
+Radiation leak & 2025-04-09 & 영광군 & 원전 비상디젤발전기 기동 \\
+Radiation leak & 2025-08-21 & 부산 기장군 & 원전 연기 \\
+\bottomrule\end{tabular}}
+
+\section*{S2. Leave-one-query-out evaluation of the proposed classifier}
+Trained on 29 queries, tested on the held-out query. $p_E$ true and predicted are percentages.\\[4pt]
+{\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrrrrrr}\toprule Query & Block & $n$ & EVENT & Macro-$F_1$ & EVENT-$F_1$ & $p_E$ true & $p_E$ pred \\\midrule
+HF leak & industrial & 100 & 40 & 0.73 & 0.84 & 40 & 43 \\
+NH$_3$ leak & industrial & 100 & 50 & 0.84 & 0.95 & 50 & 53 \\
+Cl$_2$ gas leak & industrial & 100 & 35 & 0.74 & 0.87 & 35 & 36 \\
+H$_2$SO$_4$ spill & industrial & 100 & 69 & 0.68 & 0.98 & 69 & 72 \\
+Chem. plant explosion & industrial & 100 & 47 & 0.48 & 0.86 & 47 & 58 \\
+Hazmat release & industrial & 67 & 6 & 0.58 & 0.91 & 9 & 7 \\
+Toluene leak & industrial & 100 & 40 & 0.74 & 0.93 & 40 & 42 \\
+HNO$_3$ leak & industrial & 100 & 73 & 0.60 & 0.95 & 73 & 75 \\
+Toxic-gas evacuation & industrial & 100 & 55 & 0.53 & 0.86 & 55 & 63 \\
+Chem. accident response & industrial & 100 & 3 & 0.46 & 0.40 & 3 & 2 \\
+Chemical weapon use & security & 100 & 11 & 0.46 & 0.24 & 11 & 6 \\
+Sarin attack & security & 41 & 3 & 0.44 & 0.57 & 7 & 10 \\
+Bioterrorism & security & 100 & 1 & 0.64 & 1.00 & 1 & 1 \\
+Anthrax terror & security & 100 & 7 & 0.45 & 0.67 & 7 & 5 \\
+DPRK nuclear test & security & 100 & 7 & 0.13 & 0.00 & 7 & 0 \\
+Radiation leak & security & 100 & 28 & 0.46 & 0.38 & 28 & 9 \\
+Dirty bomb & security & 100 & 4 & 0.34 & 0.60 & 4 & 6 \\
+White-powder report & security & 59 & 7 & 0.34 & 0.45 & 12 & 41 \\
+Novichok & security & 100 & 25 & 0.34 & 0.08 & 25 & 1 \\
+DPRK bio-chem weapons & security & 100 & 2 & 0.56 & 0.00 & 2 & 1 \\
+Explosive terror & conventional & 100 & 48 & 0.68 & 0.83 & 48 & 44 \\
+IED & conventional & 100 & 40 & 0.71 & 0.87 & 40 & 50 \\
+Drone attack & conventional & 100 & 22 & 0.41 & 0.57 & 22 & 13 \\
+Mass shooting & conventional & 100 & 53 & 0.64 & 0.89 & 53 & 50 \\
+Vehicle ramming & conventional & 100 & 59 & 0.46 & 0.85 & 59 & 59 \\
+Bomb threat & conventional & 100 & 69 & 0.64 & 0.91 & 69 & 68 \\
+Terror-threat post & conventional & 100 & 53 & 0.79 & 0.88 & 53 & 58 \\
+Public-facility terror & conventional & 100 & 7 & 0.50 & 1.00 & 7 & 7 \\
+Airport bomb report & conventional & 100 & 55 & 0.49 & 0.82 & 55 & 64 \\
+Reactor radiation exposure & conventional & 100 & 3 & 0.47 & 0.25 & 3 & 5 \\
+\bottomrule\end{tabular}}
+
+\section*{S3. Event estimates versus the chemical-accident registry}
+$\hat N = V p_E^{\mathrm{corpus}} d / m$ over the overlap window (9 Sep 2021 to 28 Apr 2025).\\[4pt]
+{\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}\toprule Substance query & $V$ (window) & $p_E^{\mathrm{corpus}}$ (\%) & $m$ & Domestic (\%) & $\hat N$ domestic & Registry incidents \\\midrule
+HF leak & 244 & 40 & 1.25 & 95 & 75 & 12 \\
+NH$_3$ leak & 262 & 50 & 1.85 & 98 & 69 & 24 \\
+Cl$_2$ gas leak & 162 & 36 & 1.35 & 100 & 43 & 10 \\
+H$_2$SO$_4$ spill & 164 & 70 & 1.86 & 99 & 61 & 55 \\
+Toluene leak & 97 & 40 & 1.54 & 100 & 25 & 14 \\
+HNO$_3$ leak & 110 & 73 & 2.15 & 99 & 37 & 36 \\
+\bottomrule\end{tabular}}
+
+\section*{S4. File-to-query assignment}
+The collection manifest (\texttt{collection\_manifest.csv} in the repository) lists every export file with its download-order assignment, its content-based assignment and the token-fit scores against all 30 queries; the nine files whose assignments differ are flagged in the manifest.
+
+\section*{S5. Codebook, coder prompt and clustering rule}
+The codebook (v2), the coder codebook (version 2), the anchor lexicons with spelling variants, the event clustering code and the ten cross-validation seeds (0--9) are provided in the repository. The wrapper text used to present each article to the model coders was not retained.
+
+\section*{S6. Query list, occurrence-noun coding, sampling fraction and event share}
+{\footnotesize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llllrrr}\toprule Query (English) & Block & Query (Korean) & Occurrence noun & $n$ & $n/V$ (\%) & $p_E$ (\%) \\\midrule
+HF leak & Industrial & 불산 누출 & yes (누출) & 100 & 27.5 & 40 \\
+NH$_3$ leak & Industrial & 암모니아 누출 사고 & yes (누출) & 100 & 21.1 & 50 \\
+Cl$_2$ gas leak & Industrial & 염소 가스 누출 & yes (누출) & 100 & 41.5 & 35 \\
+H$_2$SO$_4$ spill & Industrial & 황산 유출 사고 & yes (유출) & 100 & 39.4 & 69 \\
+Chem. plant explosion & Industrial & 화학공장 폭발 & yes (폭발) & 100 & 19.0 & 47 \\
+Hazmat release & Industrial & 유해화학물질 유출 & yes (유출) & 67 & 100.0 & 9 \\
+Toluene leak & Industrial & 톨루엔 누출 & yes (누출) & 100 & 81.3 & 40 \\
+HNO$_3$ leak & Industrial & 질산 누출 & yes (누출) & 100 & 46.3 & 73 \\
+Toxic-gas evacuation & Industrial & 유독가스 누출 대피 & yes (누출) & 100 & 69.4 & 55 \\
+Chem. accident response & Industrial & 화학사고 대응 & no & 100 & 4.5 & 3 \\
+Chemical weapon use & Security & 화학무기 사용 & yes (사용) & 100 & 9.6 & 11 \\
+Sarin attack & Security & 사린가스 공격 & yes (공격) & 41 & 100.0 & 7 \\
+Bioterrorism & Security & 생물테러 & no & 100 & 6.9 & 1 \\
+Anthrax terror & Security & 탄저균 테러 & no & 100 & 32.4 & 7 \\
+DPRK nuclear test & Security & 북한 핵실험 & yes (실험) & 100 & 0.4 & 7 \\
+Radiation leak & Security & 방사능 유출 & yes (유출) & 100 & 3.7 & 28 \\
+Dirty bomb & Security & 더티밤 & no & 100 & 42.0 & 4 \\
+White-powder report & Security & 백색가루 신고 & yes (신고) & 59 & 100.0 & 12 \\
+Novichok & Security & 신경작용제 노비촉 & no & 100 & 44.6 & 25 \\
+DPRK bio-chem weapons & Security & 북한 생화학무기 & no & 100 & 29.8 & 2 \\
+Explosive terror & Conventional & 폭발물 테러 & yes (폭발) & 100 & 1.4 & 48 \\
+IED & Conventional & 사제폭탄 & no & 100 & 20.5 & 40 \\
+Drone attack & Conventional & 드론 공격 & yes (공격) & 100 & 0.2 & 22 \\
+Mass shooting & Conventional & 총기 난사 & yes (난사) & 100 & 1.2 & 53 \\
+Vehicle ramming & Conventional & 차량 돌진 테러 & yes (돌진) & 100 & 7.4 & 59 \\
+Bomb threat & Conventional & 폭발물 협박 & yes (폭발/협박) & 100 & 2.4 & 69 \\
+Terror-threat post & Conventional & 테러 예고 글 & yes (예고) & 100 & 3.8 & 53 \\
+Public-facility terror & Conventional & 다중이용시설 테러 & no & 100 & 7.4 & 7 \\
+Airport bomb report & Conventional & 공항 폭발물 신고 & yes (폭발/신고) & 100 & 33.2 & 55 \\
+Reactor radiation exposure & Conventional & 원전 방사선 피폭 & yes (피폭) & 100 & 9.9 & 3 \\
+\bottomrule\end{tabular}}
+
+\section*{S7. Novichok EVENT articles in the gold set}
+Twenty-five articles coded EVENT under the ``Novichok'' query, with the coder's event place and object. Seventeen report the death in custody of Alexei Navalny (February 2024), reported as a suspected poisoning; the remainder report other suspected poisonings. None reports a new use of Novichok.\\[4pt]
+\begin{tabular}{lll}\toprule Date & Coded place & Coded object \\\midrule
+2022-03-29 & -- & 독극물 중독 \\
+2022-03-29 & -- & 독극물 \\
+2022-03-30 & 우크라이나 키이우 & 독극물 \\
+2023-05-22 & 베를린 & 독극물 공격 \\
+2023-11-29 & 우크라이나 & 중금속 독극물 중독 \\
+2024-02-16 & 러시아 야말로네네츠 & 의문사 \\
+2024-02-16 & 러시아 야말로네네츠 & 수감 중 사망 \\
+2024-02-17 & 러시아 & 의문사 \\
+2024-02-17 & 러시아 야말로네네츠 & 의문사 독살 의혹 \\
+2024-02-17 & 러시아 야말로네네츠 & 독극물 의혹 사망 \\
+2024-02-18 & 러시아 하르프 & 의문사 \\
+2024-02-19 & 살레하르트 & 독살 의혹 사망 \\
+2024-02-20 & 러시아 & 노비촉 독살 \\
+2024-02-21 & 러시아 & 암살 의혹 \\
+2024-02-21 & 러시아 & 의문사 \\
+2024-02-21 & 러시아 & 독극물 의혹 사망 \\
+2024-02-22 & 러시아 & 독극물 의혹 사망 \\
+2024-02-25 & 러시아 & 의문사 \\
+2024-02-26 & 러시아 & 의문사 \\
+2024-05-02 & 우크라이나 & 클로로피크린 \\
+2024-05-02 & 우크라이나 & 화학무기 \\
+2024-11-14 & 베오그라드 & 의문사 \\
+2026-02-15 & 러시아 & 독극물 살해 \\
+2026-02-15 & 러시아 & 신경독 \\
+2026-02-17 & 러시아 & 독극물 \\
+\bottomrule\end{tabular}
+
+\section*{S8. Pairwise Mann--Whitney tests on query-level $p_E$: asymptotic and exact $p$}
+\begin{tabular}{lrr}\toprule Comparison & Asymptotic $p$ & Exact $p$ \\\midrule
+Security vs industrial & 0.0046 & 0.0029 \\
+Security vs conventional & 0.0112 & 0.0089 \\
+Industrial vs conventional & 0.9396 & 0.9705 \\
+\bottomrule\end{tabular}
+
+\section*{S9. Sensitivity to query assignment and query wording}
+The block contrast does not depend on the queries that a reader might assign differently. Excluding ``DPRK nuclear test'' (geopolitical rather than hazard coverage), ``chemical accident response'' (78\% institutional), ``reactor radiation exposure'' (the boundary query in the conventional block) or ``drone attack'' (foreign war coverage), singly or all four together, leaves the Kruskal--Wallis $p$ at or below 0.01, the security block below both controls at Holm-adjusted $p \le 0.03$, and the industrial and conventional blocks indistinguishable ($p \ge 0.65$). Block event shares move by at most five points (industrial 43--48\%, security 11\%, conventional 41--48\%). Moving ``reactor radiation exposure'' into the security block instead of excluding it strengthens every contrast (Kruskal--Wallis $p = 0.0013$; security versus industrial $p = 0.003$, versus conventional $p = 0.002$).
+
+Query wording is a second candidate confound: most industrial and conventional queries contain an occurrence noun (leak, explosion, attack, shooting, threat), whereas half of the security queries name a threat without one (bioterrorism, dirty bomb, Novichok). Coding each query for the presence of an occurrence noun gives, within the security block, event shares of 13\% for the five queries with one and 8\% for the five without; the five security queries with an occurrence noun still fall below the industrial block ($p = 0.043$) and below the conventional block ($p = 0.086$, five against ten queries). The occurrence-noun coding of each query is given in the supplement. Wording explains part of the within-block spread, and the industrial and conventional queries without an occurrence noun (``chemical accident response'', 3\%; ``public-facility terror'', 7\%) are the low outliers of their blocks, but it does not account for the block contrast. The event share also varies by year within blocks (security 0--27\%, conventional 27--51\%, industrial 24--56\% across the six calendar years), which is the quantity a planner would track.
+
+
+\section*{S10. Duplication factor on human-confirmed security events}
+The following is the full version of the recomputation summarised in Section~4.7 of the main text.
+
+Recomputing amplification on the human event share, holding the duplication factor at its model-based value from Table 2, gives $A = 22.5$ (14.2--44.0) for the security block, 5.2 (4.2--6.8) for the industrial block and 3.1 (2.9--3.5) for the conventional block. These are hybrid quantities, with a human numerator share and a model-based duplication factor, and the duplication factor is the weaker half: $m = 1.12$ was computed over the 95 articles coder A called events in this block, of which 18 survive the human standard, so it describes a set that is three-quarters false positives. The human coders identified events but did not record the date, place and object fields the clustering rule needs. Because the security block is small enough to settle by hand, one of us assigned those three fields to all 22 articles the two human coders agreed were events, working from title and excerpt alone, and passed them through the same clustering function the coders' labels were passed through, with the same three-day window on the event date. This is a third coding pass by a single analyst who was not blind to the analysis; the 22 assignments and their clusters are deposited so that a reader can check them against the titles. They resolve into 12 events, giving $m = 1.83$ against 1.12 on coder A's labels. The largest cluster is six articles on one white-powder find in a Daegu flat, which coder A had split, and it carries the result: removing it gives 1.45, while removing any other cluster leaves 1.73--1.91. Three further variants bound the figure. On the 18 articles that are both coder-A and human events it is 1.64; splitting the three-week follow-up of the Daegu find into its own event gives 1.69 and merging the two 2024 chloropicrin reports gives 2.00. Weighting the articles by the inverse of their selection probability, so that the duplication factor rests on the same design as $p_E$, gives 1.57. Taken together the security duplication factor is between 1.45 and 2.00 on human-confirmed events against 1.12 on coder A's, and $A$ is correspondingly 29 to 40 rather than 22.5. We do not attach an interval to these: with twelve clusters, one of which supplies a quarter of the articles, a resampling interval would be a statement about that one cluster, and the same 22 articles enter both $m$ and $p_E$, so the two quantities are not independent and cannot be combined into one. Correcting the denominator moves the estimate away from the controls, not towards them; 22.5 remains the conservative figure and is the one we carry forward and report in the abstract. The block ordering is unchanged and the gap between the security block and the controls is wider than the model labels showed.
+
+
+\section*{S11. Sensitivity of the duplication factor to the clustering rule}
+Windows of one, three and seven days give $m$ between 1.73 and 1.77 (industrial), 1.10 and 1.12 (security) and 1.18 and 1.19 (conventional). Dropping place or object as a matching criterion raises $m$ in every block, to 2.2--2.5 in the industrial block, and dropping both raises it to 4.2, 2.0 and 2.7. The block ordering is unchanged under every variant.
+
+
+\section*{S12. Classifier agreement rates with coder A, by block}
+Sensitivity and false-positive rate for the EVENT class, measured against coder A's labels in cross-validation (10 seeds $\times$ 5 folds). These are agreement rates with the model annotator, not validity against the human reference standard, and they are not the rates used in the misclassification correction of the main text.\\[4pt]
+\begin{tabular}{lrr}\toprule Block & Sensitivity & False-positive rate \\\midrule
+Industrial & 0.93 & 0.08 \\
+Conventional terror & 0.89 & 0.12 \\
+Security (CBRN) & 0.43 & 0.02 \\
+\bottomrule\end{tabular}
+
+Ablation differences not shown in the main text: word $n$-grams are worse than character $n$-grams by 0.043 macro-$F_1$ (95\% CI 0.038--0.047, corrected $p = 1.5\times10^{-4}$) and title-only input by 0.066 (0.060--0.071, $p = 4.5\times10^{-5}$). The archive-taxonomy feature lowers EVENT-$F_1$ by 0.005 ($p = 0.35$) alongside the macro-$F_1$ difference reported in the main text. Learning-curve means are 0.592, 0.666, 0.699 and 0.710 at the 25, 50, 75 and 100\% training fractions.
+
+\end{document}
+

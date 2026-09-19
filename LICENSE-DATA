@@ -1,0 +1,22 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Applies to: labels/, outputs/, figures/, codebook_v2.md, and the derived tables
+in data/ (queries_v2.csv, caris_match.csv, amplification_*.csv, anchor_rates.csv).
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, link to the licence, and
+indicate if changes were made.
+
+Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+NOT covered by this licence:
+  - data/corpus_article_ids.csv.gz and the identifier columns in labels/*.csv.
+    These are references to records in the BigKinds archive (bigkinds.or.kr).
+    The identifiers are distributed as factual references; the article text they
+    point to is not included here and remains subject to BigKinds terms of use.
+  - data/caris_incidents_raw.csv, extracted from the public incident records of
+    the Chemical Safety Agency (Republic of Korea).
+
+Attribution:
+  Kim, M., Cha, J., Shin, M., Choi, G., Kang, K. (2026). refbias: replication
+  material for "How much of hazard news is news?"

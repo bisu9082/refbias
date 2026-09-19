@@ -1,0 +1,178 @@
+{
+ "design": "쿼리 내 사후층화(골드셋 셀 크기), 인간 두 코더 합의 360건",
+ "n_queries": {
+  "conventional": 10,
+  "industrial": 10,
+  "security": 10
+ },
+ "articles_per_query": {
+  "min": 4,
+  "median": 8.0,
+  "max": 39
+ },
+ "queries_with_empty_cell": 3,
+ "human_pE": {
+  "kruskal_H": 6.373363844393585,
+  "p": 0.041308709304774045,
+  "eta2": 0.16197643868124387,
+  "medians": {
+   "industrial": 0.36410714285714285,
+   "security": 0.01,
+   "conventional": 0.44
+  },
+  "means": {
+   "industrial": 0.3243928571428571,
+   "security": 0.05462184557438796,
+   "conventional": 0.3596666666666667
+  },
+  "pairs": {
+   "security vs industrial": {
+    "U": 26.0,
+    "p_raw": 0.06929646402982223,
+    "p_holm": 0.13859292805964446,
+    "r": 0.48
+   },
+   "security vs conventional": {
+    "U": 18.0,
+    "p_raw": 0.015694659599023428,
+    "p_holm": 0.04708397879707028,
+    "r": 0.64
+   },
+   "industrial vs conventional": {
+    "U": 47.0,
+    "p_raw": 0.8488093753831154,
+    "p_holm": 0.8488093753831154,
+    "r": 0.06000000000000005
+   }
+  }
+ },
+ "human_pE_conditional": {
+  "kruskal_H": 3.2414756847400725,
+  "p": 0.19775273489435946,
+  "eta2": 0.0496590273896029,
+  "medians": {
+   "industrial": 0.5857352222765021,
+   "security": 0.03649635036496351,
+   "conventional": 0.6606344777700277
+  },
+  "means": {
+   "industrial": 0.5516516996490599,
+   "security": 0.24658930987230304,
+   "conventional": 0.5973797656283095
+  },
+  "pairs": {
+   "security vs industrial": {
+    "U": 25.0,
+    "p_raw": 0.17984047889031152,
+    "p_holm": 0.35968095778062303,
+    "r": 0.3827160493827161
+   },
+   "security vs conventional": {
+    "U": 25.0,
+    "p_raw": 0.10757319448336061,
+    "p_holm": 0.32271958345008184,
+    "r": 0.4444444444444444
+   },
+   "industrial vs conventional": {
+    "U": 40.0,
+    "p_raw": 0.7108688029158766,
+    "p_holm": 0.7108688029158766,
+    "r": 0.11111111111111116
+   }
+  }
+ },
+ "model_pE_rerun": {
+  "kruskal_H": 10.061052866384115,
+  "p": 0.006535369229525699,
+  "eta2": 0.29855751356978205,
+  "medians": {
+   "industrial": 0.435,
+   "security": 0.07158536585365854,
+   "conventional": 0.505
+  },
+  "means": {
+   "industrial": 0.42095522388059703,
+   "security": 0.10418147995039273,
+   "conventional": 0.409
+  },
+  "pairs": {
+   "security vs industrial": {
+    "U": 12.0,
+    "p_raw": 0.004555853805859206,
+    "p_holm": 0.013667561417577618,
+    "r": 0.76
+   },
+   "security vs conventional": {
+    "U": 16.0,
+    "p_raw": 0.011176368265676235,
+    "p_holm": 0.02235273653135247,
+    "r": 0.6799999999999999
+   },
+   "industrial vs conventional": {
+    "U": 48.5,
+    "p_raw": 0.9395612918732799,
+    "p_holm": 0.9395612918732799,
+    "r": 0.030000000000000027
+   }
+  }
+ },
+ "gap_control_min_minus_security": {
+  "ci95": [
+   -0.01,
+   0.495
+  ],
+  "note": "두 대조 블록 중 낮은 쪽의 쿼리 중앙값에서 안보 중앙값을 뺀 차이. 쿼리 재표집 10,000회."
+ },
+ "block_level_query_clustered": {
+  "pE": {
+   "industrial": {
+    "point": 0.3377252917713104,
+    "ci95_query_cluster": [
+     0.22890570649619252,
+     0.39909069497777344
+    ]
+   },
+   "security": {
+    "point": 0.04960618846694796,
+    "ci95_query_cluster": [
+     0.006209150326797385,
+     0.10929600373350852
+    ]
+   },
+   "conventional": {
+    "point": 0.3797857142857143,
+    "ci95_query_cluster": [
+     0.30230434782608695,
+     0.409
+    ]
+   },
+   "no_overlap_with_industrial": true,
+   "no_overlap_with_conventional": true
+  },
+  "pE_cond": {
+   "industrial": {
+    "point": 0.5206912750722451,
+    "ci95_query_cluster": [
+     0.3641373375778282,
+     0.7203006592908422
+    ]
+   },
+   "security": {
+    "point": 0.13912254578086325,
+    "ci95_query_cluster": [
+     0.018882520916808844,
+     0.31157766554543825
+    ]
+   },
+   "conventional": {
+    "point": 0.5958347341108725,
+    "ci95_query_cluster": [
+     0.5236130867709816,
+     0.6843847906579322
+    ]
+   },
+   "no_overlap_with_industrial": true,
+   "no_overlap_with_conventional": true
+  }
+ }
+}

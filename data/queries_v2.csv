@@ -1,0 +1,31 @@
+qid,block,block_en,query,naver_total_20260908,caris_linkable,note
+Q01,산업,INDUSTRIAL,불산 누출,16957,Y,CARIS 사고물질 매칭 가능
+Q02,산업,INDUSTRIAL,암모니아 누출 사고,4491,Y,CARIS 최다 빈도 물질군
+Q03,산업,INDUSTRIAL,염소 가스 누출,3785,Y,CARIS 매칭 가능
+Q04,산업,INDUSTRIAL,황산 유출 사고,3017,Y,CARIS 매칭 가능
+Q05,산업,INDUSTRIAL,화학공장 폭발,35313,Y,CARIS 사고유형 폭발 매칭
+Q06,산업,INDUSTRIAL,유해화학물질 유출,16765,Y,CARIS 상위 카테고리
+Q07,산업,INDUSTRIAL,톨루엔 누출,1022,Y,저빈도 대조 질의
+Q08,산업,INDUSTRIAL,질산 누출,2558,Y,CARIS 매칭 가능
+Q09,산업,INDUSTRIAL,유독가스 누출 대피,2321,Y,사고유형 누출 매칭
+Q10,산업,INDUSTRIAL,화학사고 대응,79306,N,제도(INST) 성분 고농도 예상
+Q11,안보,SECURITY,화학무기 사용,48737,N,국제사건 참조 고농도 예상
+Q12,안보,SECURITY,사린가스 공격,2375,N,1995 도쿄/2013 구타 재인용 예상
+Q13,안보,SECURITY,생물테러,22515,N,제도 성분 고농도 예상
+Q14,안보,SECURITY,탄저균 테러,5708,N,실사건 0건 가설 검증 대상
+Q15,안보,SECURITY,북한 핵실험,258486,N,참조 91퍼센트 기존 실측 재현 대상
+Q16,안보,SECURITY,방사능 유출,34746,N,후쿠시마 재인용 예상
+Q17,안보,SECURITY,더티밤,752,N,최저 모집단 질의
+Q18,안보,SECURITY,백색가루 신고,1826,N,오경보 성분 검증용
+Q19,안보,SECURITY,신경작용제 노비촉,1835,N,2018 솔즈베리 재인용 예상
+Q20,안보,SECURITY,북한 생화학무기,12832,N,제도 성분 고농도 예상
+Q21,비CBRN,CONVENTIONAL,폭발물 테러,62822,N,acciterror 수단분류 참조
+Q22,비CBRN,CONVENTIONAL,사제폭탄,11331,N,acciterror 수단분류 참조
+Q23,비CBRN,CONVENTIONAL,드론 공격,150213,N,최대 모집단 질의
+Q24,비CBRN,CONVENTIONAL,총기 난사,100988,N,해외 실사건 다발 대조군
+Q25,비CBRN,CONVENTIONAL,차량 돌진 테러,11755,N,제도 성분 혼재 예상
+Q26,비CBRN,CONVENTIONAL,폭발물 협박,20116,N,협박 사건 다발군
+Q27,비CBRN,CONVENTIONAL,테러 예고 글,9801,N,국내 실사건 다발군 핵심 대조
+Q28,비CBRN,CONVENTIONAL,다중이용시설 테러,11771,N,제도 성분 고농도 예상
+Q29,비CBRN,CONVENTIONAL,공항 폭발물 신고,4442,N,국내 실사건 다발군
+Q30,비CBRN,CONVENTIONAL,원전 방사선 피폭,10237,N,안보-산업 경계 질의

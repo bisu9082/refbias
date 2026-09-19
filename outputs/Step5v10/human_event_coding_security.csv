@@ -1,0 +1,23 @@
+sid,event_key,event_date,place,object,coderA_label,article_date,title
+S02269,daegu_powder_2022,2022-06-09,Daegu Suseong,white powder and syringes in a flat ceiling,EVENT,20220612,대구 한 아파트 욕실 천장서 마약 의심 백색가루 발견
+S00300,jeju_anthrax_2022,2022-09-28,Jeju Jocheon,suspected anthrax mail,EVENT,20220928,[속보] 함덕파출소에 탄저균 의심 우편물 배달
+S02293,mariupol_2022,2022-04-11,Mariupol,alleged chemical weapon use,OTHER,20220413,"“러, 마리우폴에서 화학무기 사용” 주장에 미국 “확인 못 해”"
+S00532,daegu_powder_2022,2022-06-09,Daegu Suseong,white powder and syringes in a flat ceiling,IRRELEVANT,20220613,대구 아파트 화장실 천장서 필로폰 추정 백색가루 발견 경찰 조사
+S01004,popasna_2022,2022-03-13,Luhansk Popasna,alleged white phosphorus munition,EVENT,20220314,"“러, 루한스크 백린탄 투하 나치가 쓰던 최악 화학무기”"
+S00016,bupyeong_2022,2022-04-25,Incheon,unidentified white powder in a public park,EVENT,20220427,"'낚싯바늘 소시지' 그 공원서 백색가루 테러 ""강아지 쓰러져"""
+S01623,mariupol_2022,2022-04-11,Mariupol,alleged chemical weapon use,EVENT,20220412,"마리우폴서 화학 무기 사용 논란 러, “협상 관계없이 군사작전 지속”"
+S02569,chloropicrin_may24,2024-05-01,Ukraine,US statement on chloropicrin use,EVENT,20240502,"미국 “러, 우크라 전쟁서 ‘국제적 금지’ 화학 물질 사용”"
+S01363,jeju_anthrax_2022,2022-09-28,Jeju Jocheon,suspected anthrax mail,EVENT,20220928,제주서 '탄저균 우편물' 의심 신고 간이 검사 결과 '음성'
+S01428,navalny_2024,2024-02-16,Russia,Novichok poisoning (death of A. Navalny),EVENT,20240220,아들 시신 엄마한테도 꽁꽁 숨겨 ‘푸틴 저격수’ 살해한 방법 뭐길래
+S01998,parcels_2023,2023-07-21,Haman/nationwide,suspicious international parcels,EVENT,20230721,"울산, 대전, 제주 이어 함안서도 ‘이상한’ 소포 발견"
+S00136,chloropicrin_apr24,2024-04-07,Ukraine front,alleged banned chemical weapon attack,EVENT,20240407,"""러시아, 최전방 우크라군에 금지 화학무기 공격"""
+S00512,zaporizhzhia_2022,2022-08-20,Zaporizhzhia,alleged botulinum toxin use,OTHER,20220821,"러시아, 우크라이나 독가스 사용 주장"
+S01933,daegu_powder_2022,2022-06-09,Daegu Suseong,white powder and syringes in a flat ceiling,IRRELEVANT,20220612,대구 수성구 아파트 천장서 1천명분 2급 마약 '필로폰' 발견
+S01700,popasna_2022,2022-03-13,Luhansk Popasna,alleged white phosphorus munition,EVENT,20220314,"""러, 돈바스에서 화학무기 '백린탄' 사용"""
+S02054,popasna_2022,2022-03-13,Luhansk Popasna,alleged white phosphorus munition,EVENT,20220315,"[나우뉴스] 러, 우크라에 백린탄 투하 ‘인류 최악의 무기’인 이유"
+S02599,daegu_powder_2022,2022-06-09,Daegu Suseong,white powder and syringes in a flat ceiling,EVENT,20220613,"아파트 화장실서 백색가루 주사기 발견 경찰, 성분조사"
+S01832,onagawa_2026,2026-05-16,"Miyagi, Japan","radioactive steam release, Onagawa unit 2",EVENT,20260516,“후쿠시마 악몽 재연될까” 日서 규모 6.4 지진 뒤 원전서 ‘방사성 수증기’ 유출
+S01214,mariupol_2022,2022-04-11,Mariupol,alleged chemical weapon use,EVENT,20220413,"美 “러, 화학작용제 사용했을 수 있다는 정보 있어”"
+S02339,daegu_powder_2022,2022-06-09,Daegu Suseong,white powder and syringes in a flat ceiling,EVENT,20220704,"[단독]경찰 ""대구 아파트 천장서 발견된 백색가루 마약 아니다"""
+S02482,haeundae_2024,2024-08-29,Busan Haeundae,white-powder letter to a public agency,EVENT,20240829,해운대 게임물관리위원회에 백색가루 든 우편물 발송돼 경찰특공대 출동 협박 편지 동봉도
+S00212,daegu_powder_2022,2022-06-09,Daegu Suseong,white powder and syringes in a flat ceiling,EVENT,20220612,대구 아파트 천장에서 필로폰 1000여명 투약분 나와

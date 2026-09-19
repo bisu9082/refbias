@@ -1,0 +1,135 @@
+{
+ "note": "사후층화: p = sum_c N_c * mean(y|c) / sum_c N_c, N_c 는 골드셋의 알려진 층 크기",
+ "pE_human_ps": {
+  "industrial": {
+   "n_consensus": 74,
+   "n_drawn": 78,
+   "pE": 0.3377252917713104,
+   "ci95": [
+    0.25666642044615157,
+    0.4187749298271532
+   ],
+   "pE_coderA": 0.43226473629782836
+  },
+  "security": {
+   "n_consensus": 219,
+   "n_drawn": 245,
+   "pE": 0.04960618846694796,
+   "ci95": [
+    0.02538677918424754,
+    0.07887834036568213
+   ],
+   "pE_coderA": 0.10555555555555556
+  },
+  "conventional": {
+   "n_consensus": 67,
+   "n_drawn": 77,
+   "pE": 0.3797857142857143,
+   "ci95": [
+    0.3359642857142857,
+    0.409
+   ],
+   "pE_coderA": 0.409
+  }
+ },
+ "consensus_sensitivity": {
+  "consensus": {
+   "industrial": 0.3377252917713104,
+   "security": 0.04960618846694796,
+   "conventional": 0.3797857142857143
+  },
+  "H1_only": {
+   "industrial": 0.33537442111415855,
+   "security": 0.04385185185185186,
+   "conventional": 0.3544666666666667
+  },
+  "H2_only": {
+   "industrial": 0.33537442111415855,
+   "security": 0.05981481481481481,
+   "conventional": 0.38173333333333337
+  },
+  "either_EVENT": {
+   "industrial": 0.33537442111415855,
+   "security": 0.05981481481481481,
+   "conventional": 0.38173333333333337
+  },
+  "disagree_all_EVENT": {
+   "industrial": 0.38474270491434737,
+   "security": 0.12125925925925926,
+   "conventional": 0.4823290780141844
+  },
+  "disagree_all_nonEVENT": {
+   "industrial": 0.33537442111415855,
+   "security": 0.04385185185185186,
+   "conventional": 0.3544666666666667
+  }
+ },
+ "rg_identity": {
+  "industrial": {
+   "TPR": 0.9199496951636273,
+   "FPR": 0.1835710401940692,
+   "pA_weighted": 0.43226473629782836,
+   "rg": 0.33772529177131044,
+   "direct_ps": 0.3377252917713104,
+   "diff": 5.551115123125783e-17
+  },
+  "security": {
+   "TPR": 0.48483130138928265,
+   "FPR": 0.08575910496796056,
+   "pA_weighted": 0.10555555555555556,
+   "rg": 0.049606188466948,
+   "direct_ps": 0.04960618846694796,
+   "diff": 3.469446951953614e-17
+  },
+  "conventional": {
+   "TPR": 1.0,
+   "FPR": 0.047103535644362544,
+   "pA_weighted": 0.409,
+   "rg": 0.3797857142857143,
+   "direct_ps": 0.3797857142857143,
+   "diff": 0.0
+  }
+ },
+ "disagreements": {
+  "n": 40,
+  "n_event_boundary": 12,
+  "by_query_event_boundary": {
+   "방사능 유출": 9,
+   "폭발물 테러": 1,
+   "다중이용시설 테러": 1,
+   "노비촉": 1
+  },
+  "pairs": {
+   "IRRELEVANT/OTHER": 13,
+   "IRRELEVANT/INST": 12,
+   "OTHER/EVENT": 9,
+   "IRRELEVANT/EVENT": 2,
+   "OTHER/REF": 2,
+   "OTHER/INST": 1,
+   "REF/EVENT": 1
+  }
+ },
+ "domestic_security": {
+  "coderA_domestic_EVENT_in_census": 18,
+  "human_confirmed_in_census": 9,
+  "pE_dom_coderA": 0.02,
+  "pE_dom_human_ps": 0.02192592592592593,
+  "ci95": [
+   0.006666666666666667,
+   0.04203703703703703
+  ],
+  "note": "안보|EVENT 층은 포함확률 1(전수). 코더A 가 놓친 국내 인간 EVENT 는 비EVENT 층(pi=0.186)에서 가중된다."
+ },
+ "human_m_note": "인간 코더가 ev_date/ev_place/ev_object 를 기입하지 않아 인간 라벨 기준 m 은 산출 불가. A(human) 은 코더A 의 m 을 사용한 혼합 추정치이며 하한이다.",
+ "human_EVENT_counts": {
+  "industrial": {
+   "n_human_EVENT": 25
+  },
+  "security": {
+   "n_human_EVENT": 22
+  },
+  "conventional": {
+   "n_human_EVENT": 26
+  }
+ }
+}

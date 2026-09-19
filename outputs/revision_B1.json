@@ -1,0 +1,765 @@
+{
+ "anchor": {
+  "Q01": {
+   "qid": "Q01",
+   "query": "hydrogen fluoride",
+   "V": 363,
+   "rho_all": 0.33608815426997246,
+   "rho_no_year": 0.3305785123966942,
+   "per_token": {
+    "Gumi": 0.3305785123966942,
+    "2012": 0.06060606060606061
+   },
+   "rho_by_year": {
+    "2021": 0.6923076923076923,
+    "2022": 0.4883720930232558,
+    "2023": 0.47368421052631576,
+    "2024": 0.3116883116883117,
+    "2025": 0.10091743119266056,
+    "2026": 0.3333333333333333
+   },
+   "V_by_year": {
+    "2021": 13,
+    "2022": 86,
+    "2023": 57,
+    "2024": 77,
+    "2025": 109,
+    "2026": 21
+   },
+   "gold_crosstab": {
+    "n": 100,
+    "anchor_mention_rate": 0.11,
+    "by_label": {
+     "EVENT": {
+      "n": 40,
+      "anchor_share": 0.0
+     },
+     "REF": {
+      "n": 7,
+      "anchor_share": 0.2857142857142857
+     },
+     "INST": {
+      "n": 23,
+      "anchor_share": 0.17391304347826086
+     },
+     "OTHER": {
+      "n": 14,
+      "anchor_share": 0.07142857142857142
+     },
+     "IRRELEVANT": {
+      "n": 16,
+      "anchor_share": 0.25
+     }
+    },
+    "mentions_that_are_EVENT": 0.0,
+    "mentions_that_are_REF": 0.18181818181818182
+   }
+  },
+  "Q04": {
+   "qid": "Q04",
+   "query": "sulfuric acid (control)",
+   "V": 254,
+   "rho_all": 0.023622047244094488,
+   "rho_no_year": 0.023622047244094488,
+   "per_token": {
+    "Gumi": 0.023622047244094488,
+    "2012": 0.0
+   },
+   "rho_by_year": {
+    "2021": 0.25,
+    "2022": 0.05555555555555555,
+    "2023": 0.015625,
+    "2024": 0.0,
+    "2025": 0.012658227848101266,
+    "2026": 0.02564102564102564
+   },
+   "V_by_year": {
+    "2021": 4,
+    "2022": 36,
+    "2023": 64,
+    "2024": 32,
+    "2025": 79,
+    "2026": 39
+   },
+   "gold_crosstab": {
+    "n": 100,
+    "anchor_mention_rate": 0.0,
+    "by_label": {
+     "EVENT": {
+      "n": 69,
+      "anchor_share": 0.0
+     },
+     "REF": {
+      "n": 3,
+      "anchor_share": 0.0
+     },
+     "INST": {
+      "n": 18,
+      "anchor_share": 0.0
+     },
+     "OTHER": {
+      "n": 5,
+      "anchor_share": 0.0
+     },
+     "IRRELEVANT": {
+      "n": 5,
+      "anchor_share": 0.0
+     }
+    },
+    "mentions_that_are_EVENT": null,
+    "mentions_that_are_REF": null
+   }
+  },
+  "Q08": {
+   "qid": "Q08",
+   "query": "nitric acid (control)",
+   "V": 216,
+   "rho_all": 0.013888888888888888,
+   "rho_no_year": 0.013888888888888888,
+   "per_token": {
+    "Gumi": 0.013888888888888888,
+    "2012": 0.0
+   },
+   "rho_by_year": {
+    "2021": 0.0,
+    "2022": 0.0,
+    "2023": 0.02127659574468085,
+    "2024": 0.0,
+    "2025": 0.013513513513513514,
+    "2026": 0.02564102564102564
+   },
+   "V_by_year": {
+    "2021": 2,
+    "2022": 18,
+    "2023": 47,
+    "2024": 36,
+    "2025": 74,
+    "2026": 39
+   },
+   "gold_crosstab": {
+    "n": 100,
+    "anchor_mention_rate": 0.0,
+    "by_label": {
+     "EVENT": {
+      "n": 73,
+      "anchor_share": 0.0
+     },
+     "REF": {
+      "n": 0,
+      "anchor_share": null
+     },
+     "INST": {
+      "n": 18,
+      "anchor_share": 0.0
+     },
+     "OTHER": {
+      "n": 5,
+      "anchor_share": 0.0
+     },
+     "IRRELEVANT": {
+      "n": 4,
+      "anchor_share": 0.0
+     }
+    },
+    "mentions_that_are_EVENT": null,
+    "mentions_that_are_REF": null
+   }
+  },
+  "Q03": {
+   "qid": "Q03",
+   "query": "chlorine (control)",
+   "V": 241,
+   "rho_all": 0.024896265560165973,
+   "rho_no_year": 0.02074688796680498,
+   "per_token": {
+    "Gumi": 0.02074688796680498,
+    "2012": 0.004149377593360996
+   },
+   "rho_by_year": {
+    "2021": 0.0,
+    "2022": 0.03125,
+    "2023": 0.0784313725490196,
+    "2024": 0.0,
+    "2025": 0.0,
+    "2026": 0.0
+   },
+   "V_by_year": {
+    "2021": 4,
+    "2022": 32,
+    "2023": 51,
+    "2024": 72,
+    "2025": 45,
+    "2026": 37
+   },
+   "gold_crosstab": {
+    "n": 100,
+    "anchor_mention_rate": 0.0,
+    "by_label": {
+     "EVENT": {
+      "n": 35,
+      "anchor_share": 0.0
+     },
+     "REF": {
+      "n": 1,
+      "anchor_share": 0.0
+     },
+     "INST": {
+      "n": 40,
+      "anchor_share": 0.0
+     },
+     "OTHER": {
+      "n": 10,
+      "anchor_share": 0.0
+     },
+     "IRRELEVANT": {
+      "n": 14,
+      "anchor_share": 0.0
+     }
+    },
+    "mentions_that_are_EVENT": null,
+    "mentions_that_are_REF": null
+   }
+  },
+  "Q12": {
+   "qid": "Q12",
+   "query": "sarin",
+   "V": 41,
+   "rho_all": 0.5609756097560976,
+   "rho_no_year": 0.5609756097560976,
+   "per_token": {
+    "Aum": 0.3170731707317073,
+    "Tokyo": 0.36585365853658536,
+    "1995": 0.04878048780487805,
+    "Ghouta": 0.1951219512195122
+   },
+   "rho_by_year": {
+    "2022": 0.45454545454545453,
+    "2023": 0.5714285714285714,
+    "2024": 0.5454545454545454,
+    "2025": 0.625,
+    "2026": 0.75
+   },
+   "V_by_year": {
+    "2022": 11,
+    "2023": 7,
+    "2024": 11,
+    "2025": 8,
+    "2026": 4
+   },
+   "gold_crosstab": {
+    "n": 41,
+    "anchor_mention_rate": 0.24390243902439024,
+    "by_label": {
+     "EVENT": {
+      "n": 3,
+      "anchor_share": 0.6666666666666666
+     },
+     "REF": {
+      "n": 7,
+      "anchor_share": 0.7142857142857143
+     },
+     "INST": {
+      "n": 2,
+      "anchor_share": 0.0
+     },
+     "OTHER": {
+      "n": 13,
+      "anchor_share": 0.07692307692307693
+     },
+     "IRRELEVANT": {
+      "n": 16,
+      "anchor_share": 0.125
+     }
+    },
+    "mentions_that_are_EVENT": 0.2,
+    "mentions_that_are_REF": 0.5
+   }
+  },
+  "Q14": {
+   "qid": "Q14",
+   "query": "anthrax",
+   "V": 309,
+   "rho_all": 0.3818770226537217,
+   "rho_no_year": 0.3818770226537217,
+   "per_token": {
+    "2001": 0.042071197411003236,
+    "US": 0.3559870550161812,
+    "mail": 0.19741100323624594
+   },
+   "rho_by_year": {
+    "2021": 0.3333333333333333,
+    "2022": 0.45098039215686275,
+    "2023": 0.4482758620689655,
+    "2024": 0.4146341463414634,
+    "2025": 0.32407407407407407,
+    "2026": 0.125
+   },
+   "V_by_year": {
+    "2021": 6,
+    "2022": 51,
+    "2023": 87,
+    "2024": 41,
+    "2025": 108,
+    "2026": 16
+   },
+   "gold_crosstab": {
+    "n": 100,
+    "anchor_mention_rate": 0.14,
+    "by_label": {
+     "EVENT": {
+      "n": 7,
+      "anchor_share": 0.7142857142857143
+     },
+     "REF": {
+      "n": 1,
+      "anchor_share": 1.0
+     },
+     "INST": {
+      "n": 40,
+      "anchor_share": 0.025
+     },
+     "OTHER": {
+      "n": 39,
+      "anchor_share": 0.05128205128205128
+     },
+     "IRRELEVANT": {
+      "n": 13,
+      "anchor_share": 0.38461538461538464
+     }
+    },
+    "mentions_that_are_EVENT": 0.35714285714285715,
+    "mentions_that_are_REF": 0.07142857142857142
+   }
+  },
+  "Q19": {
+   "qid": "Q19",
+   "query": "Novichok",
+   "V": 224,
+   "rho_all": 0.8973214285714286,
+   "rho_no_year": 0.8928571428571429,
+   "per_token": {
+    "Skripal": 0.25,
+    "Salisbury": 0.08035714285714286,
+    "Navalny": 0.7901785714285714,
+    "2018": 0.08035714285714286,
+    "2020": 0.16071428571428573
+   },
+   "per_event": {
+    "Salisbury 2018": 0.2544642857142857,
+    "Navalny 2020": 0.7901785714285714
+   },
+   "per_event_by_year": {
+    "Salisbury 2018": {
+     "2021": 0.3333333333333333,
+     "2022": 0.5272727272727272,
+     "2023": 0.1956521739130435,
+     "2024": 0.10204081632653061,
+     "2025": 0.3333333333333333,
+     "2026": 0.4
+    },
+    "Navalny 2020": {
+     "2021": 0.3333333333333333,
+     "2022": 0.6,
+     "2023": 0.782608695652174,
+     "2024": 0.9693877551020408,
+     "2025": 0.6666666666666666,
+     "2026": 0.5
+    }
+   },
+   "rho_by_year": {
+    "2021": 0.6666666666666666,
+    "2022": 0.7818181818181819,
+    "2023": 0.8260869565217391,
+    "2024": 0.9897959183673469,
+    "2025": 1.0,
+    "2026": 0.9
+   },
+   "V_by_year": {
+    "2021": 6,
+    "2022": 55,
+    "2023": 46,
+    "2024": 98,
+    "2025": 9,
+    "2026": 10
+   },
+   "gold_crosstab": {
+    "n": 100,
+    "anchor_mention_rate": 0.56,
+    "by_label": {
+     "EVENT": {
+      "n": 25,
+      "anchor_share": 0.68
+     },
+     "REF": {
+      "n": 9,
+      "anchor_share": 0.8888888888888888
+     },
+     "INST": {
+      "n": 6,
+      "anchor_share": 0.3333333333333333
+     },
+     "OTHER": {
+      "n": 45,
+      "anchor_share": 0.6
+     },
+     "IRRELEVANT": {
+      "n": 15,
+      "anchor_share": 0.13333333333333333
+     }
+    },
+    "mentions_that_are_EVENT": 0.30357142857142855,
+    "mentions_that_are_REF": 0.14285714285714285
+   }
+  },
+  "Q16": {
+   "qid": "Q16",
+   "query": "radiation leak",
+   "V": 2704,
+   "rho_all": 0.4489644970414201,
+   "rho_no_year": 0.4489644970414201,
+   "per_token": {
+    "Fukushima": 0.3768491124260355,
+    "Chernobyl": 0.11723372781065089
+   },
+   "per_event": {
+    "Fukushima": 0.3768491124260355,
+    "Chernobyl": 0.11723372781065089
+   },
+   "per_event_by_year": {
+    "Fukushima": {
+     "2021": 0.42567567567567566,
+     "2022": 0.24731182795698925,
+     "2023": 0.6633109619686801,
+     "2024": 0.3602693602693603,
+     "2025": 0.14153846153846153,
+     "2026": 0.08783783783783784
+    },
+    "Chernobyl": {
+     "2021": 0.0472972972972973,
+     "2022": 0.25806451612903225,
+     "2023": 0.06263982102908278,
+     "2024": 0.05387205387205387,
+     "2025": 0.1076923076923077,
+     "2026": 0.037162162162162164
+    }
+   },
+   "rho_by_year": {
+    "2021": 0.44594594594594594,
+    "2022": 0.44489247311827956,
+    "2023": 0.6789709172259508,
+    "2024": 0.37373737373737376,
+    "2025": 0.20615384615384616,
+    "2026": 0.10810810810810811
+   },
+   "V_by_year": {
+    "2021": 148,
+    "2022": 744,
+    "2023": 894,
+    "2024": 297,
+    "2025": 325,
+    "2026": 296
+   },
+   "gold_crosstab": {
+    "n": 100,
+    "anchor_mention_rate": 0.29,
+    "by_label": {
+     "EVENT": {
+      "n": 28,
+      "anchor_share": 0.25
+     },
+     "REF": {
+      "n": 3,
+      "anchor_share": 0.3333333333333333
+     },
+     "INST": {
+      "n": 17,
+      "anchor_share": 0.29411764705882354
+     },
+     "OTHER": {
+      "n": 31,
+      "anchor_share": 0.5161290322580645
+     },
+     "IRRELEVANT": {
+      "n": 21,
+      "anchor_share": 0.0
+     }
+    },
+    "mentions_that_are_EVENT": 0.2413793103448276,
+    "mentions_that_are_REF": 0.034482758620689655
+   }
+  }
+ },
+ "domestic": {
+  "by_block": {
+   "conventional": {
+    "EVENT": 409,
+    "domestic": 181,
+    "foreign": 185,
+    "unknown": 43,
+    "domestic_share_of_EVENT": 0.44254278728606355,
+    "pE_domestic_only": 0.181,
+    "pE_all": 0.409
+   },
+   "industrial": {
+    "EVENT": 418,
+    "domestic": 405,
+    "foreign": 10,
+    "unknown": 3,
+    "domestic_share_of_EVENT": 0.9688995215311005,
+    "pE_domestic_only": 0.4188210961737332,
+    "pE_all": 0.43226473629782836
+   },
+   "security": {
+    "EVENT": 95,
+    "domestic": 18,
+    "foreign": 76,
+    "unknown": 1,
+    "domestic_share_of_EVENT": 0.18947368421052632,
+    "pE_domestic_only": 0.02,
+    "pE_all": 0.10555555555555556
+   }
+  },
+  "by_query": {
+   "Q01": {
+    "query": "불산 누출",
+    "EVENT": 40,
+    "domestic": 38,
+    "foreign": 1,
+    "unknown": 1,
+    "n": 100
+   },
+   "Q02": {
+    "query": "암모니아 누출 사고",
+    "EVENT": 50,
+    "domestic": 49,
+    "foreign": 1,
+    "unknown": 0,
+    "n": 100
+   },
+   "Q03": {
+    "query": "염소 가스 누출",
+    "EVENT": 35,
+    "domestic": 35,
+    "foreign": 0,
+    "unknown": 0,
+    "n": 100
+   },
+   "Q04": {
+    "query": "황산 유출 사고",
+    "EVENT": 69,
+    "domestic": 68,
+    "foreign": 0,
+    "unknown": 1,
+    "n": 100
+   },
+   "Q05": {
+    "query": "화학공장 폭발",
+    "EVENT": 47,
+    "domestic": 43,
+    "foreign": 4,
+    "unknown": 0,
+    "n": 100
+   },
+   "Q06": {
+    "query": "유해화학물질 유출",
+    "EVENT": 6,
+    "domestic": 6,
+    "foreign": 0,
+    "unknown": 0,
+    "n": 67
+   },
+   "Q07": {
+    "query": "톨루엔 누출",
+    "EVENT": 40,
+    "domestic": 40,
+    "foreign": 0,
+    "unknown": 0,
+    "n": 100
+   },
+   "Q08": {
+    "query": "질산 누출",
+    "EVENT": 73,
+    "domestic": 72,
+    "foreign": 1,
+    "unknown": 0,
+    "n": 100
+   },
+   "Q09": {
+    "query": "유독가스 누출 대피",
+    "EVENT": 55,
+    "domestic": 51,
+    "foreign": 3,
+    "unknown": 1,
+    "n": 100
+   },
+   "Q10": {
+    "query": "화학사고 대응",
+    "EVENT": 3,
+    "domestic": 3,
+    "foreign": 0,
+    "unknown": 0,
+    "n": 100
+   },
+   "Q11": {
+    "query": "화학무기 사용",
+    "EVENT": 11,
+    "domestic": 0,
+    "foreign": 11,
+    "unknown": 0,
+    "n": 100
+   },
+   "Q12": {
+    "query": "사린가스 공격",
+    "EVENT": 3,
+    "domestic": 0,
+    "foreign": 3,
+    "unknown": 0,
+    "n": 41
+   },
+   "Q13": {
+    "query": "생물테러",
+    "EVENT": 1,
+    "domestic": 1,
+    "foreign": 0,
+    "unknown": 0,
+    "n": 100
+   },
+   "Q14": {
+    "query": "탄저균 테러",
+    "EVENT": 7,
+    "domestic": 4,
+    "foreign": 3,
+    "unknown": 0,
+    "n": 100
+   },
+   "Q15": {
+    "query": "북한 핵실험",
+    "EVENT": 7,
+    "domestic": 1,
+    "foreign": 6,
+    "unknown": 0,
+    "n": 100
+   },
+   "Q16": {
+    "query": "방사능 유출",
+    "EVENT": 28,
+    "domestic": 4,
+    "foreign": 23,
+    "unknown": 1,
+    "n": 100
+   },
+   "Q17": {
+    "query": "더티밤",
+    "EVENT": 4,
+    "domestic": 0,
+    "foreign": 4,
+    "unknown": 0,
+    "n": 100
+   },
+   "Q18": {
+    "query": "백색가루 신고",
+    "EVENT": 7,
+    "domestic": 6,
+    "foreign": 1,
+    "unknown": 0,
+    "n": 59
+   },
+   "Q19": {
+    "query": "노비촉",
+    "EVENT": 25,
+    "domestic": 0,
+    "foreign": 25,
+    "unknown": 0,
+    "n": 100
+   },
+   "Q20": {
+    "query": "북한 생화학무기",
+    "EVENT": 2,
+    "domestic": 2,
+    "foreign": 0,
+    "unknown": 0,
+    "n": 100
+   },
+   "Q21": {
+    "query": "폭발물 테러",
+    "EVENT": 48,
+    "domestic": 15,
+    "foreign": 32,
+    "unknown": 1,
+    "n": 100
+   },
+   "Q22": {
+    "query": "사제폭탄",
+    "EVENT": 40,
+    "domestic": 18,
+    "foreign": 9,
+    "unknown": 13,
+    "n": 100
+   },
+   "Q23": {
+    "query": "드론 공격",
+    "EVENT": 22,
+    "domestic": 1,
+    "foreign": 21,
+    "unknown": 0,
+    "n": 100
+   },
+   "Q24": {
+    "query": "총기 난사",
+    "EVENT": 53,
+    "domestic": 1,
+    "foreign": 48,
+    "unknown": 4,
+    "n": 100
+   },
+   "Q25": {
+    "query": "차량 돌진 테러",
+    "EVENT": 59,
+    "domestic": 6,
+    "foreign": 52,
+    "unknown": 1,
+    "n": 100
+   },
+   "Q26": {
+    "query": "폭발물 협박",
+    "EVENT": 69,
+    "domestic": 60,
+    "foreign": 6,
+    "unknown": 3,
+    "n": 100
+   },
+   "Q27": {
+    "query": "테러 예고 글",
+    "EVENT": 53,
+    "domestic": 37,
+    "foreign": 1,
+    "unknown": 15,
+    "n": 100
+   },
+   "Q28": {
+    "query": "다중이용시설 테러",
+    "EVENT": 7,
+    "domestic": 5,
+    "foreign": 0,
+    "unknown": 2,
+    "n": 100
+   },
+   "Q29": {
+    "query": "공항 폭발물 신고",
+    "EVENT": 55,
+    "domestic": 38,
+    "foreign": 13,
+    "unknown": 4,
+    "n": 100
+   },
+   "Q30": {
+    "query": "원전 방사선 피폭",
+    "EVENT": 3,
+    "domestic": 0,
+    "foreign": 3,
+    "unknown": 0,
+    "n": 100
+   }
+  }
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "security_by_treatment": {
+  "consensus": 0.04960618846694796,
+  "H1_only": 0.04385185185185186,
+  "H2_only": 0.05981481481481481,
+  "either_EVENT": 0.05981481481481481,
+  "disagree_all_EVENT": 0.12125925925925926,
+  "disagree_all_nonEVENT": 0.04385185185185186
+ },
+ "distinct_values_pct": [
+  4.3852,
+  4.9605999999999995,
+  5.9815,
+  12.125900000000001
+ ],
+ "defensible_range_pct": [
+  4.385185185185185,
+  5.981481481481481
+ ],
+ "note": "disagree_all_EVENT 는 어느 코더도 EVENT 라 하지 않은 기사(40건 중 28건)를 EVENT 로 강제하므로 방어 가능한 상한이 아니다."
+}

@@ -11,19 +11,24 @@
 | `codebook_v2.md` | 8,912 | `10541651c321cf9d` |
 | `refbias_overleaf_submission.zip` | 203,267 | `ba2efec20fe435a4` |
 | `requirements.txt` | 84 | `d657a8fe94ee6248` |
-| `paper/citation_verification_v12.json` | 1,258 | `4e3841205b5f9dea` |
-| `paper/cover_letter.pdf` | 22,197 | `ef796a9bc6a2818b` |
-| `paper/cover_letter.tex` | 4,644 | `7f45196d652535f8` |
-| `paper/highlights.pdf` | 16,801 | `b15e0a47dac45c01` |
-| `paper/highlights.tex` | 1,021 | `7d4bdc932955de1b` |
-| `paper/main.log` | 42,512 | `fe3de47b10c68d3f` |
-| `paper/main.pdf` | 338,047 | `9aa66f1e8967d733` |
-| `paper/main.tex` | 115,414 | `ee453b4d58ee02e6` |
-| `paper/myref.bib` | 31,260 | `cfab83742ade6de3` |
-| `paper/refbias_main_v8.pdf` | 338,046 | `9fb65214db1eeb91` |
-| `paper/refbias_supplement_v8.pdf` | 84,433 | `f1d497afb6c2a92d` |
-| `paper/supplement.pdf` | 84,429 | `cca7e6b1ee5c5be3` |
-| `paper/supplement.tex` | 17,579 | `c3d58643c4455b7b` |
+| `labels/goldset_labels_coderA.csv` | 345,905 | `ecf30762a021fefd` |
+| `labels/goldset_labels_coderB.csv` | 17,848 | `80fb4829f5d578d0` |
+| `labels/human_labels_H1.csv` | 23,577 | `360bb3a15aca435a` |
+| `labels/human_labels_H2.csv` | 23,427 | `077d9564b83c27e3` |
+| `labels/human_sampling_design.csv` | 266 | `9c1a7612cd565da6` |
+| `data/amplification_by_block.csv` | 339 | `1f42fc618a331ee3` |
+| `data/amplification_by_query.csv` | 2,099 | `c0bfc2bd86c4a483` |
+| `data/anchor_rates.csv` | 950 | `23dac1c2f21fa573` |
+| `data/caris_incidents_raw.csv` | 300,952 | `a1ef8e4b6b0c6ef9` |
+| `data/caris_match.csv` | 679 | `de99eaf73a0453c7` |
+| `data/corpus_article_ids.csv.gz` | 576,345 | `69d671352f136d82` |
+| `data/queries_v2.csv` | 2,451 | `c5bbfe9c668f1569` |
+| `figures/Fig1_framework_data.pdf` | 41,458 | `7133aae0f109449b` |
+| `figures/Fig2_decomposition_amplification.pdf` | 40,620 | `e7f99e555536f09d` |
+| `figures/Fig3_reference_bias_ground_truth.pdf` | 34,773 | `47d0ca2447154d92` |
+| `figures/Fig4_classifier_validation.pdf` | 31,227 | `72bd255e328082fc` |
+| `figures/Fig5_human_validation.pdf` | 25,667 | `3214098c9848a381` |
+| `figures/GA_refbias.png` | 302,905 | `d371f103c95126e1` |
 | `code/_cluster_funcs.py` | 2,084 | `49578a286fc676f0` |
 | `code/_domestic_rule.py` | 2,268 | `309e1f0ac1972888` |
 | `code/_paths.py` | 1,752 | `ea4169e89a0e5ec5` |
@@ -56,17 +61,17 @@
 | `code/validate_text_rule.py` | 2,310 | `75a8e86af96e1c2a` |
 | `code/verify_numbers.py` | 4,379 | `d4cfcc2101917e36` |
 | `code/verify_v8b.py` | 5,700 | `04af5912f0467b7c` |
-| `labels/goldset_labels_coderA.csv` | 345,905 | `ecf30762a021fefd` |
-| `labels/goldset_labels_coderB.csv` | 17,848 | `80fb4829f5d578d0` |
-| `labels/human_labels_H1.csv` | 23,577 | `360bb3a15aca435a` |
-| `labels/human_labels_H2.csv` | 23,427 | `077d9564b83c27e3` |
-| `labels/human_sampling_design.csv` | 266 | `9c1a7612cd565da6` |
-| `figures/Fig1_framework_data.pdf` | 41,458 | `7133aae0f109449b` |
-| `figures/Fig2_decomposition_amplification.pdf` | 40,620 | `e7f99e555536f09d` |
-| `figures/Fig3_reference_bias_ground_truth.pdf` | 34,773 | `47d0ca2447154d92` |
-| `figures/Fig4_classifier_validation.pdf` | 31,227 | `72bd255e328082fc` |
-| `figures/Fig5_human_validation.pdf` | 25,667 | `3214098c9848a381` |
-| `figures/GA_refbias.png` | 302,905 | `d371f103c95126e1` |
+| `paper/citation_verification_v12.json` | 1,258 | `4e3841205b5f9dea` |
+| `paper/cover_letter.pdf` | 22,197 | `ef796a9bc6a2818b` |
+| `paper/cover_letter.tex` | 4,644 | `7f45196d652535f8` |
+| `paper/highlights.pdf` | 16,801 | `b15e0a47dac45c01` |
+| `paper/highlights.tex` | 1,021 | `7d4bdc932955de1b` |
+| `paper/main.log` | 42,512 | `fe3de47b10c68d3f` |
+| `paper/main.pdf` | 338,047 | `9aa66f1e8967d733` |
+| `paper/main.tex` | 115,414 | `ee453b4d58ee02e6` |
+| `paper/myref.bib` | 31,260 | `cfab83742ade6de3` |
+| `paper/supplement.pdf` | 84,429 | `cca7e6b1ee5c5be3` |
+| `paper/supplement.tex` | 17,579 | `c3d58643c4455b7b` |
 | `outputs/conditional_pE.json` | 1,995 | `96fe1295bf72a845` |
 | `outputs/corpus_components_corrected.csv` | 358 | `33aa0b45f3743b97` |
 | `outputs/corpus_events_by_query.csv` | 1,689 | `b96cbd49b16369a0` |
@@ -99,15 +104,8 @@
 | `outputs/Step5v10/human_query_level.csv` | 1,871 | `4eab0aa476f0b84d` |
 | `outputs/Step5v10/human_query_tests.json` | 3,995 | `692a9e8c90f67113` |
 | `outputs/Step5v10/registry_recode.json` | 1,713 | `ef03f7d8e237a3d2` |
-| `data/amplification_by_block.csv` | 339 | `1f42fc618a331ee3` |
-| `data/amplification_by_query.csv` | 2,099 | `c0bfc2bd86c4a483` |
-| `data/anchor_rates.csv` | 950 | `23dac1c2f21fa573` |
-| `data/caris_incidents_raw.csv` | 300,952 | `a1ef8e4b6b0c6ef9` |
-| `data/caris_match.csv` | 679 | `de99eaf73a0453c7` |
-| `data/corpus_article_ids.csv.gz` | 576,345 | `69d671352f136d82` |
-| `data/queries_v2.csv` | 2,451 | `c5bbfe9c668f1569` |
 
-총 102개 파일.
+총 100개 파일.
 
 ## 폐기 표시된 산출물
 파일 머리에 `_SUPERSEDED` 표기가 있으며 원고 수치가 아니다.

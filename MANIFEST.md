@@ -9,7 +9,7 @@
 | `LICENSE-DATA` | 1,093 | `55402abf36bc3960` |
 | `README.md` | 8,104 | `6e8bdc49ef85ba43` |
 | `codebook_v2.md` | 8,912 | `10541651c321cf9d` |
-| `refbias_overleaf_SafetyScience.zip` | 208,238 | `0c9818e04e06bd04` |
+| `refbias_overleaf_SafetyScience.zip` | 208,198 | `a459d1a0ce4d887f` |
 | `requirements.txt` | 84 | `d657a8fe94ee6248` |
 | `code/_cluster_funcs.py` | 2,084 | `49578a286fc676f0` |
 | `code/_domestic_rule.py` | 2,268 | `309e1f0ac1972888` |
@@ -89,13 +89,13 @@
 | `paper/citation_verification_v12.json` | 1,258 | `4e3841205b5f9dea` |
 | `paper/cover_letter.pdf` | 62,391 | `cc1c8c566d274aaa` |
 | `paper/cover_letter.tex` | 5,054 | `d727284ca25eee74` |
-| `paper/highlights.pdf` | 27,023 | `9072e9dcc6b1b7d7` |
+| `paper/highlights.pdf` | 27,023 | `a0cc773b5bdab689` |
 | `paper/highlights.tex` | 997 | `0c9fa6dcc22091fd` |
-| `paper/main.log` | 44,774 | `d073b7834c54125f` |
-| `paper/main.pdf` | 395,363 | `8e0ade04e9c203f3` |
-| `paper/main.tex` | 124,368 | `bdf89e67dd27cfc6` |
+| `paper/main.log` | 44,774 | `0f44221f6e2f68e4` |
+| `paper/main.pdf` | 395,285 | `22ffa327e0fec464` |
+| `paper/main.tex` | 124,178 | `780d282e43b6babc` |
 | `paper/myref.bib` | 33,712 | `3b19e5845500ef19` |
-| `paper/supplement.pdf` | 91,180 | `edad03959f81e303` |
+| `paper/supplement.pdf` | 91,175 | `2913a8bfebea1c7f` |
 | `paper/supplement.tex` | 21,749 | `5358574b2a3c9d4c` |
 | `outputs/Step5v10/anchor_free_check.json` | 1,674 | `38045d50bfee3ea9` |
 | `outputs/Step5v10/disagreement_range.json` | 601 | `d6295c5b7a49d09a` |

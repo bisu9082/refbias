@@ -1,6 +1,9 @@
 import re,sys,json,itertools,os
 import pandas as pd, numpy as np
-BASE='/home/claude/rb'
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import _paths as _P
+BASE=_P.ROOT
 import unicodedata
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity

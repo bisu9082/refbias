@@ -1,15 +1,15 @@
 # MANIFEST
 
-저장소 파일 목록. SHA-256 앞 16자와 바이트 크기. 생성 2026-09-19 (Safety Science 투고본, 6차 패널 교정 반영).
+저장소 파일 목록. SHA-256 앞 16자와 바이트 크기. 생성 2026-09-19 (Safety Science 투고본, 6차 패널 교정 + AI 문체 제거 반영).
 
 | path | bytes | sha256[:16] |
 |---|---:|---|
 | `.gitignore` | 19 | `862263fa1f46c20f` |
 | `LICENSE` | 1,120 | `659c78797aa3c5ad` |
 | `LICENSE-DATA` | 1,093 | `55402abf36bc3960` |
-| `README.md` | 7,533 | `107adc7d56b46df1` |
+| `README.md` | 7,994 | `4b692e4b765cad58` |
 | `codebook_v2.md` | 8,912 | `10541651c321cf9d` |
-| `refbias_overleaf_SafetyScience.zip` | 208,401 | `b04791d13fcd6a1b` |
+| `refbias_overleaf_SafetyScience.zip` | 208,160 | `9b3aacc3e938fa6b` |
 | `requirements.txt` | 84 | `d657a8fe94ee6248` |
 | `code/_cluster_funcs.py` | 2,084 | `49578a286fc676f0` |
 | `code/_domestic_rule.py` | 2,268 | `309e1f0ac1972888` |
@@ -42,9 +42,9 @@
 | `code/make_figset_v2.py` | 19,388 | `21c21a7fe2f282cc` |
 | `code/regression_check.py` | 4,033 | `79c8f30f248a636b` |
 | `code/sample_02_human_oversample.py` | 2,586 | `9172966263cd0230` |
-| `code/validate_text_rule.py` | 2,310 | `75a8e86af96e1c2a` |
-| `code/verify_numbers.py` | 4,379 | `d4cfcc2101917e36` |
-| `code/verify_v8b.py` | 5,700 | `04af5912f0467b7c` |
+| `code/validate_text_rule.py` | 2,398 | `a07e2000c6ed0d67` |
+| `code/verify_from_raw.py` | 5,767 | `636fe3297e549c56` |
+| `code/verify_v8b.py` | 5,835 | `56ae2fdca93a7ff5` |
 | `data/amplification_by_block.csv` | 339 | `1f42fc618a331ee3` |
 | `data/amplification_by_query.csv` | 2,099 | `c0bfc2bd86c4a483` |
 | `data/anchor_rates.csv` | 950 | `23dac1c2f21fa573` |
@@ -86,15 +86,15 @@
 | `outputs/v8_final_numbers.json` | 4,144 | `2c3e9deef1104f96` |
 | `outputs/v9_additions.json` | 8,741 | `a3ba40e3c00c839c` |
 | `paper/citation_verification_v12.json` | 1,258 | `4e3841205b5f9dea` |
-| `paper/cover_letter.pdf` | 62,205 | `1343dfbc9d426654` |
-| `paper/cover_letter.tex` | 5,039 | `6f8f358e624aecf4` |
-| `paper/highlights.pdf` | 27,023 | `bd1aec4c189c3daa` |
+| `paper/cover_letter.pdf` | 62,188 | `22f5372c428df14f` |
+| `paper/cover_letter.tex` | 5,031 | `a3e2febddf2298cf` |
+| `paper/highlights.pdf` | 27,023 | `9072e9dcc6b1b7d7` |
 | `paper/highlights.tex` | 997 | `0c9fa6dcc22091fd` |
-| `paper/main.log` | 44,774 | `573dcac2df1b8752` |
-| `paper/main.pdf` | 395,832 | `6e2275e5478c28e9` |
-| `paper/main.tex` | 124,934 | `20465d04b5f2de4e` |
+| `paper/main.log` | 44,774 | `7475cc556a211190` |
+| `paper/main.pdf` | 395,168 | `da358806a3932fb3` |
+| `paper/main.tex` | 124,151 | `0db93ea728572795` |
 | `paper/myref.bib` | 33,712 | `3b19e5845500ef19` |
-| `paper/supplement.pdf` | 91,175 | `8d6ab55aae3de228` |
+| `paper/supplement.pdf` | 91,180 | `edad03959f81e303` |
 | `paper/supplement.tex` | 21,749 | `5358574b2a3c9d4c` |
 | `outputs/Step5v10/anchor_free_check.json` | 1,674 | `38045d50bfee3ea9` |
 | `outputs/Step5v10/disagreement_range.json` | 601 | `d6295c5b7a49d09a` |

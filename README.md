@@ -41,6 +41,7 @@ python code/integrity_audit.py            # three-way audit: raw data -> outputs
 python code/verify_v8b.py                 # checks every human-validation number in main.tex against outputs/
 python code/verify_from_raw.py            # recomputes headline numbers from labels/ and data/ alone, no JSONs
 python code/regression_check.py           # guards the deposited JSONs against silent drift
+python code/make_manifest.py --check      # byte size and SHA-256 of every deposited file against MANIFEST.md
 ```
 
 `integrity_audit.py` runs three checks in one pass: it recomputes 24 quantities from the label files and compares them with the deposited JSONs, matches 60 values in `paper/main.tex` against those JSONs by context-anchored regex, and checks 16 quantities that appear in more than one file for mutual consistency. `verify_v8b.py` adds 65 further manuscript checks. `verify_from_raw.py` is the independent one: it reads only `labels/` and `data/`, recomputes 18 headline quantities from scratch — the gold-set shares, the post-stratified human shares, the inter-coder kappa and the whole registry regression — and compares them with what `paper/main.tex` says, so an error in the deposited JSONs cannot hide it. `regression_check.py` pins the headline quantities to fixed baselines; it exists because a refactor once changed a published number without anyone noticing.
